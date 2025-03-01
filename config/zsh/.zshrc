@@ -59,3 +59,9 @@ alias greset='git reset --hard HEAD'
 
 # For apps & cli alias
 alias lgit='lazygit'
+
+# Homebrew
+alias bu='brew update'
+alias bc='brew cleanup'
+alias bs='brew search'
+alias br='brew autoremove'
