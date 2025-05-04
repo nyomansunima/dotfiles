@@ -132,7 +132,7 @@ To install all of the apps, you can follow 3 different ways including
 1. Install the homebrew first, go to [https://brew.sh/](https://brew.sh/) then follow the installation instruction.
 2. Start install the command line tools using homebrew
    ```zsh
-   brew install bat eza fastfetch bun curl deno eza kubernetes-cli lazydocker lazygit node@22 ohmyposh xh zoxide
+   brew install stow fzf bat eza fastfetch bun curl deno eza kubernetes-cli lazydocker lazygit node@22 ohmyposh xh zoxide
    ```
 3. Then move istall the apps (cask)
    ```zsh
