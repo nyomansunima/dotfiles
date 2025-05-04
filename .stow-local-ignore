@@ -1,0 +1,10 @@
+\.git
+\.gitignore
+\.github
+\.zed
+\.config/oh-my-posh/.gitkeep
+scripts
+^/README.*
+^/LICENSE.*
+^/CODE_OF_CONDUCT.*
+^/CONTRIBUTING.*

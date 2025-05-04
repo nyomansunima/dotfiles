@@ -1,0 +1,24 @@
+# HELIX CONFIGURATION FILE
+# You can find all of the configuration detail on the official documentation
+theme = "emacs"
+
+# Editor configuration
+[editor]
+true-color = true
+bufferline = "multiple"
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "block"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+# Keymaps configuration
+[keys.normal]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+C-f = [":new", ":insert-output broot -s", ":buffer-close!"]
+esc = ["collapse_selection", "keep_primary_selection"]

@@ -1,0 +1,10 @@
+{
+  "file_scan_exclusions": [
+    "**/.git"
+    // "**/.svn",
+    // "**/.hg",
+    // "**/CVS",
+    // "**/.settings"
+    // "**/.vscode",
+  ]
+}

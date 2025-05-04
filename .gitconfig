@@ -1,0 +1,13 @@
+[gpg]
+	format = ssh
+[user]
+	signingkey = /Users/nyomansunima/.ssh/id_github.pub
+	email = nyomansunima@gmail.com
+	name = Nyoman Sunima
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
