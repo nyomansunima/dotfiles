@@ -39,6 +39,13 @@ alias rm='rm -rf -i'
 alias cp='cp -r'
 alias mv='mv -i'
 
+# File finder
+alias fp="fzf --preview'bat {}'"
+alias ff='fzf'
+
+# Tools
+alias code='zed'
+
 # for files
 alias cat='bat'
 alias less='bat'
