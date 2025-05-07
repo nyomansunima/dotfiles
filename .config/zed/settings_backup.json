@@ -19,7 +19,7 @@
   // user interfaces settings
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
-  "ui_font_size": 15.5,
+  "ui_font_size": 16,
   "format_on_save": "on",
   "show_call_status_icon": false,
 
@@ -35,7 +35,7 @@
     "onum": true,
     "calt": true
   },
-  "agent": {
+  "assistant": {
     "button": false,
     "dock": "right",
     "default_model": {
@@ -127,7 +127,7 @@
   "relative_line_numbers": false,
 
   // buffer, editor settings
-  "buffer_font_size": 13,
+  "buffer_font_size": 13.5,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_weight": 500,
   "buffer_font_features": {
@@ -173,7 +173,7 @@
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font Mono",
     "line_height": "comfortable",
-    "font_size": 12.5,
+    "font_size": 13,
     "font_weight": 600,
     "dock": "bottom",
     "cursor_shape": "bar",
