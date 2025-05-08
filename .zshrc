@@ -1,8 +1,7 @@
 # ZSH CONFIGURATION
 # Oh My Posh configuration
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  # eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/catppuccin-tweak.omp.json)"
-  eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/clean-detailed.omp.json)"
+  eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/one-thing.omp.json)"
 fi
 
 # Integrations
