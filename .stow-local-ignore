@@ -2,7 +2,6 @@
 \.gitignore
 \.github
 \.zed
-\.config/oh-my-posh/.gitkeep
 scripts
 ^/README.*
 ^/LICENSE.*
