@@ -9,7 +9,7 @@ font-thicken = true
 
 # UI Configurations
 window-theme = system
-theme = one-thing.conf
+theme = light:one-thing-light.conf,dark:one-thing-dark.conf
 background-opacity = 1
 background-blur-radius = 0
 macos-titlebar-proxy-icon = hidden
