@@ -92,7 +92,7 @@
           "style": "plain",
           "template": " \u2665 {{ .CurrentDate | date .Format }} |",
           "type": "time",
-          "foreground": "#000000"
+          "foreground": "#adb5bd"
         },
         {
           "style": "plain",
@@ -135,7 +135,7 @@
   "transient_prompt": {
     "background": "#e0aaff",
     "foreground": "#3c096c",
-    "template": "<#e0aaff,transparent>\uE0B6</>\u2665 {{ .Shell }} |<#e0aaff,transparent>\uE0B4</>",
+    "template": "<#e0aaff,transparent>\uE0B6</>\u2665 {{ .Shell }}<#e0aaff,transparent>\uE0B4</>",
     "newline": true
   },
   "version": 3
