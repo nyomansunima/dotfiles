@@ -13,7 +13,10 @@
   },
 
   // theme, icons, tweaks
-  "theme": "Brook Code Light",
+  "theme": {
+    "dark": "Brook Code Dark",
+    "light": "Brook Code Light"
+  },
   "icon_theme": "Zed (Default)",
 
   // user interfaces settings
