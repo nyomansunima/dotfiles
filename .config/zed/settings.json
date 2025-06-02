@@ -102,7 +102,7 @@
     "show": true,
     "show_nav_history_buttons": false
   },
-  "max_tabs": 1,
+  "max_tabs": null,
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
