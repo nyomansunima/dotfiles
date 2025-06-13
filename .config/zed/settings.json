@@ -14,8 +14,8 @@
 
   // theme, icons, tweaks
   "theme": {
-    "dark": "Brook Code Dark",
-    "light": "Brook Code Light"
+    "dark": "One Thing Cool Dark",
+    "light": "One Thing Cool Light"
   },
   "icon_theme": "Zed (Default)",
 
@@ -175,7 +175,7 @@
   // Terminals and command executions
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font Mono",
-    "line_height": "standard",
+    "line_height": "comfortable",
     "font_size": 12.5,
     "font_weight": 600,
     "dock": "bottom",
