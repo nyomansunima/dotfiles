@@ -181,6 +181,10 @@
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
+    "button": false,
+    "toolbar": {
+      "breadcrumbs": false
+    },
     "copy_on_select": false
   },
 
