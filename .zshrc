@@ -43,7 +43,6 @@ alias fp="fzf --preview'bat {}'"
 alias ff='fzf'
 
 # Tools
-alias code='zed'
 
 # for files
 alias cat='bat'
@@ -51,6 +50,7 @@ alias less='bat'
 
 # for git
 alias g='git'
+alias gcl='git clone'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
