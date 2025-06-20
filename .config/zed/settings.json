@@ -8,8 +8,8 @@
 // from the command palette or from `Zed` application menu.
 {
   "features": {
-    "edit_prediction_provider": "zed",
-    "copilot": false
+    "edit_prediction_provider": "copilot",
+    "copilot": true
   },
 
   // theme, icons, tweaks
@@ -22,7 +22,7 @@
   // user interfaces settings
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
-  "ui_font_size": 15.5,
+  "ui_font_size": 15,
   "format_on_save": "on",
   "show_call_status_icon": false,
 
@@ -130,7 +130,7 @@
   "relative_line_numbers": false,
 
   // buffer, editor settings
-  "buffer_font_size": 13,
+  "buffer_font_size": 12.5,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_weight": 500,
   "buffer_font_features": {
@@ -178,6 +178,7 @@
     "line_height": "comfortable",
     "font_size": 12.5,
     "font_weight": 600,
+    "default_height": 700,
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
