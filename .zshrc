@@ -28,8 +28,8 @@ function git {
 # Alias configuration
 # for commands
 alias cd='z'
-alias ls='eza --icons --tree --level=0 -l'
-alias la='eza --icons --tree --level=0 --all -l'
+alias ls='eza --icons --tree --level=1 -l'
+alias la='eza --icons --tree --level=1 --all -l'
 alias c='clear'
 alias h='history'
 alias up='brew update && brew upgrade && brew cleanup'
@@ -43,6 +43,7 @@ alias fp="fzf --preview'bat {}'"
 alias ff='fzf'
 
 # Tools
+alias code='zed'
 
 # for files
 alias cat='bat'
