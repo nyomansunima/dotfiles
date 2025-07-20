@@ -8,8 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "features": {
-    "edit_prediction_provider": "copilot",
-    "copilot": true
+    "edit_prediction_provider": "copilot"
   },
 
   // theme, icons, tweaks
@@ -22,10 +21,9 @@
   // user interfaces settings
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
-  "ui_font_size": 15,
+  "ui_font_size": 15.5,
   "format_on_save": "on",
   "show_call_status_icon": false,
-
   "formatter": "auto",
   "ui_font_features": {
     "ss01": true,
@@ -39,13 +37,13 @@
     "calt": true
   },
   "agent": {
+    "default_profile": "ask",
     "button": false,
     "dock": "right",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
-    },
-    "version": "2"
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    }
   },
   "collaboration_panel": {
     "button": false,
@@ -117,7 +115,6 @@
     "active_line_width": 2,
     "coloring": "indent_aware"
   },
-  "show_user_picture": false,
   "git_panel": {
     "button": true,
     "dock": "right",
@@ -130,7 +127,7 @@
   "relative_line_numbers": false,
 
   // buffer, editor settings
-  "buffer_font_size": 12.5,
+  "buffer_font_size": 13,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_weight": 500,
   "buffer_font_features": {
@@ -156,7 +153,6 @@
     "show_type_hints": false
   },
   "gutter": {
-    "code_actions": false,
     "line_numbers": false,
     "runnables": false,
     "folds": true
@@ -178,7 +174,6 @@
     "line_height": "comfortable",
     "font_size": 12.5,
     "font_weight": 600,
-    "default_height": 700,
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
@@ -186,7 +181,7 @@
     "toolbar": {
       "breadcrumbs": false
     },
-    "copy_on_select": false
+    "copy_on_select": true
   },
 
   // extension & managements
@@ -207,10 +202,7 @@
     "**/dist",
     "**/build",
     "**/.react-router",
-    "**/*.gen*",
-    "**/api.*",
-    "**/client.*",
-    "**/ssr.*"
+    "**/*.gen*"
   ],
   "file_types": {
     "JSON": [".prettierrc"],
@@ -223,6 +215,5 @@
     "Markdown": {
       "format_on_save": "on"
     }
-  },
-  "experimental.theme_overrides": {}
+  }
 }
