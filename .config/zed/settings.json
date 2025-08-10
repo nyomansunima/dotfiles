@@ -13,32 +13,15 @@
 
   // theme, icons, tweaks
   "theme": {
-    "dark": "One Thing Cool Dark",
-    "light": "One Thing Cool Light"
+    "dark": "One Thing Dark",
+    "light": "One Thing Light"
   },
   "icon_theme": "Zed (Default)",
 
-  // user interfaces settings
-  "ui_font_family": ".SystemUIFont",
-  "ui_font_weight": 500,
-  "ui_font_size": 15.5,
-  "format_on_save": "on",
-  "show_call_status_icon": false,
-  "formatter": "auto",
-  "ui_font_features": {
-    "ss01": true,
-    "ss02": true,
-    "ss03": true,
-    "ss04": true,
-    "ss05": true,
-    "ss06": true,
-    "zero": true,
-    "onum": true,
-    "calt": true
-  },
+  // panels and features
   "agent": {
     "default_profile": "ask",
-    "button": false,
+    "button": true,
     "dock": "right",
     "default_model": {
       "provider": "google",
@@ -50,7 +33,7 @@
     "dock": "right"
   },
   "outline_panel": {
-    "button": false,
+    "button": true,
     "dock": "left",
     "indent_guides": {
       "show": "never"
@@ -68,7 +51,7 @@
     "dock": "right"
   },
   "notification_panel": {
-    "button": false
+    "button": true
   },
   "project_panel": {
     "button": true,
@@ -85,8 +68,36 @@
     "folder_icons": true,
     "file_icons": true,
     "entry_spacing": "comfortable",
-    "show_diagnostics": "off"
+    "show_diagnostics": "off",
+    "sticky_scroll": false,
+    "auto_reveal_entries": false,
+    "hide_root": true
   },
+  "git_panel": {
+    "button": true,
+    "dock": "right",
+    "status_style": "label_color"
+  },
+
+  // interfaces configs
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_weight": 500,
+  "ui_font_size": 15.5,
+  "format_on_save": "on",
+  "show_call_status_icon": false,
+  "formatter": "auto",
+  "ui_font_features": {
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "ss06": true,
+    "zero": true,
+    "onum": true,
+    "calt": true
+  },
+
   "tabs": {
     "file_icons": true,
     "git_status": false
@@ -114,11 +125,6 @@
     "enabled": true,
     "active_line_width": 2,
     "coloring": "indent_aware"
-  },
-  "git_panel": {
-    "button": true,
-    "dock": "right",
-    "status_style": "label_color"
   },
   "edit_predictions": {
     "mode": "subtle",
@@ -211,9 +217,5 @@
 
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
-  "languages": {
-    "Markdown": {
-      "format_on_save": "on"
-    }
-  }
+  "languages": {}
 }
