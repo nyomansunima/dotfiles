@@ -183,7 +183,7 @@
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
-    "button": false,
+    "button": true,
     "toolbar": {
       "breadcrumbs": false
     },
