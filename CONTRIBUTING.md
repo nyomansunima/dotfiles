@@ -10,7 +10,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-     git clone https://github.com/nyomansunima/dotfiles.git
+     git clone https://github.com/heysunima/dotfiles.git
    ```
 2. You can see all of the listed configurations in the [README.md](./README.md) file.
 3. Copy everything you need to your local machine by running the command `cp -r config/. ~/.config/`. This will copy all of the files and folders to your config home directory.
