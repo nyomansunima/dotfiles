@@ -1,7 +1,7 @@
 [gpg]
 	format = ssh
 [user]
-	signingkey = /Users/heysunima/.ssh/id_github.pub
+	signingkey = ~/.ssh/id_github.pub
 	email = heysunima@gmail.com
 	name = Nyoman Sunima
 [commit]

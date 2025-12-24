@@ -5,7 +5,7 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 fi
 
 # Integrations
-[ -s "/Users/heysunima/.bun/_bun" ] && source "/Users/heysunima/.bun/_bun"
+[ -s "~/.bun/_bun" ] && source "~/.bun/_bun"
 eval "$(zoxide init zsh)"
 source <(kubectl completion zsh)
 
