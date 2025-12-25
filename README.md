@@ -198,6 +198,20 @@ Here are the list of the apps that are installed using pwa and web
 - Google Photos
 - Eleven Labs
 
+## Migrations
+
+To doing migrations, we need to use `stow` as symlink tools to connect the dotfiles configs into the positions. To execute, run the following command.
+
+```sh
+  # Ensure the symlink clean
+  stow -D -t ~ .
+
+  # Do symlink
+  stow -t ~ .
+```
+
+The command will remove all the recent symlink and then install the new one.
+
 ## Documentation
 
 - This project is maintain under the [MIT License](./LICENSE).
