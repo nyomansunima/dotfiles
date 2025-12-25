@@ -10,7 +10,7 @@ eval "$(zoxide init zsh)"
 source <(kubectl completion zsh)
 
 # Git configuration that allow to automatically add the SSH key
-# Only run when the command run is git
+# Only run when the command run is 'git'
 function register_git_ssh_key {
   if ! pgrep -u "$USER" ssh-agent > /dev/null; then
     eval "$(ssh-agent -s)" > /dev/null
@@ -38,18 +38,15 @@ alias rm='rm -rf -i'
 alias cp='cp -r'
 alias mv='mv -i'
 
-# File finder
+# File Finder
 alias fp="fzf --preview'bat {}'"
 alias ff='fzf'
 
-# Tools
-alias code='zed'
-
-# for files
+# Files
 alias cat='bat'
 alias less='bat'
 
-# for git
+# Git
 alias g='git'
 alias gcl='git clone'
 alias gs='git status'
@@ -64,8 +61,9 @@ alias glog='git log --oneline --decorate --graph'
 alias gmerge='git merge'
 alias greset='git reset --hard HEAD'
 
-# For apps & cli alias
+# CLIs
 alias lgit='lazygit'
+alias ldoc='lazydocker'
 
 # Homebrew
 alias bu='brew update'
