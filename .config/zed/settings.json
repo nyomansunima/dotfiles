@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "features": {
-    "edit_prediction_provider": "copilot",
+    "edit_prediction_provider": "zed",
   },
 
   // theme, icons, tweaks
@@ -21,19 +21,22 @@
   // panels and features
   "agent": {
     "default_profile": "ask",
-    "button": true,
+    "button": false,
     "dock": "right",
     "default_model": {
       "provider": "google",
       "model": "gemini-2.5-flash",
     },
   },
+  "search": {
+    "button": false,
+  },
   "collaboration_panel": {
     "button": false,
     "dock": "right",
   },
   "outline_panel": {
-    "button": true,
+    "button": false,
     "dock": "left",
     "indent_guides": {
       "show": "never",
@@ -46,15 +49,11 @@
     "git_status": false,
     "indent_size": 12,
   },
-  "chat_panel": {
-    "button": "when_in_call",
-    "dock": "right",
-  },
   "notification_panel": {
-    "button": true,
+    "button": false,
   },
   "project_panel": {
-    "button": true,
+    "button": false,
     "dock": "left",
     "git_status": false,
     "auto_fold_dirs": false,
@@ -72,12 +71,20 @@
     "sticky_scroll": false,
     "auto_reveal_entries": false,
     "hide_root": true,
+    "default_width": 320,
   },
   "git_panel": {
-    "button": true,
+    "button": false,
     "dock": "right",
     "status_style": "label_color",
   },
+  "diagnostics": {
+    "button": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "global_lsp_settings": { "button": false },
 
   // interfaces configs
   "ui_font_family": ".SystemUIFont",
@@ -108,7 +115,7 @@
     "enable_preview_from_file_finder": true,
   },
   "tab_bar": {
-    "show": true,
+    "show": false,
     "show_nav_history_buttons": false,
   },
   "max_tabs": null,
@@ -183,7 +190,7 @@
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
-    "button": true,
+    "button": false,
     "toolbar": {
       "breadcrumbs": false,
     },
