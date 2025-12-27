@@ -206,14 +206,12 @@
     "**/.vscode",
     "**/node_modules",
     "**/dist",
+    "**/.output",
     "**/build",
     "**/.react-router",
     "**/*.gen*",
+    "**/.content-collections",
   ],
-  "file_types": {
-    "JSON": [".prettierrc"],
-    "Markdown": ["LICENSE"],
-  },
 
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
