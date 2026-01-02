@@ -64,14 +64,14 @@
       "show": "never",
     },
     "indent_size": 12,
-    "folder_icons": true,
-    "file_icons": true,
+    "folder_icons": false,
+    "file_icons": false,
     "entry_spacing": "comfortable",
     "show_diagnostics": "off",
     "sticky_scroll": false,
     "auto_reveal_entries": false,
     "hide_root": true,
-    "default_width": 320,
+    "default_width": 360,
   },
   "git_panel": {
     "button": false,
@@ -104,9 +104,8 @@
     "onum": true,
     "calt": true,
   },
-
   "tabs": {
-    "file_icons": true,
+    "file_icons": false,
     "git_status": false,
   },
   "preview_tabs": {
@@ -126,12 +125,12 @@
   },
   "file_finder": {
     "modal_max_width": "small",
-    "file_icons": true,
+    "file_icons": false,
   },
   "indent_guides": {
     "enabled": true,
     "active_line_width": 2,
-    "coloring": "indent_aware",
+    "coloring": "fixed",
   },
   "edit_predictions": {
     "mode": "subtle",
@@ -168,7 +167,7 @@
   "gutter": {
     "line_numbers": false,
     "runnables": false,
-    "folds": true,
+    "folds": false,
   },
   "cursor_shape": "bar",
   "soft_wrap": "none",
