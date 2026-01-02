@@ -14,8 +14,6 @@ Here are the list of apps, or settings that are included in this project:
 - Oh My Posh
 - Zed
 
-## Apps Installed
-
 Here are apps and browser apps that installed on computer and phone. You can see the detail and list of apps that need to setup on the computer.
 
 - Notion
@@ -98,8 +96,6 @@ Here are apps and browser apps that installed on computer and phone. You can see
 - Google Photos
 - Eleven Labs
 
-## Command Tools Installed
-
 Some command line tools that are installed on the computer and other devices.
 
 - homebrew
@@ -121,82 +117,22 @@ Some command line tools that are installed on the computer and other devices.
 
 ## Installation
 
-To install all of the apps, you can follow 3 different ways including
+To install all of the application, we gonna combine the homebrew, cask, and web apps.
 
-1. Install using homebrew for apps & command tools
-2. Install using desktop apps (links and app store)
-3. Install the pwa and web using chrome web apps
+- Install the homebrew first, go to [https://brew.sh/](https://brew.sh/) then follow the installation instruction. Or for fast run the following command.
+  ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+- Before starting to install, make sure you copy the `.Brewfile` into `~/.Brewfile` or using specific command for different location.
+- Start install the command line tools using homebrew via .Brefile.
 
-### Install using homebrew
+  ```sh
+    # For global use
+    brew bundle check --global || brew bundle install --global
 
-1. Install the homebrew first, go to [https://brew.sh/](https://brew.sh/) then follow the installation instruction.
-2. Start install the command line tools using homebrew
-   ```zsh
-   brew install stow fzf bat eza fastfetch bun curl deno eza kubernetes-cli lazydocker lazygit node@22 ohmyposh xh zoxide
-   ```
-3. Then move istall the apps (cask)
-   ```zsh
-   brew install --cask airtable android-studio bitwarden brave-browser canva cap chatgpt discord docker figma font-jetbrains-mono-nerd-font framer ghostty hiddenbar hoppscotch notion notion-calendar obsidian podman-desktop raycast rive screen-studio slack spline spotify termius vlc whatsapp zed zoom
-   ```
-
-### Install using desktop apps
-
-Here are the list of the apps installed using links and app store
-
-- Blip
-- Tencent Lemon Lite
-- Xcode
-- Cap
-- Komodo Screen Recorder
-- Perplexity
-- Cloudflare Warp
-- Toggl Track
-- Mockuuups Studio
-
-### Install using pwa and web
-
-Here are the list of the apps that are installed using pwa and web
-
-- Layers.so
-- Typing Mind
-- Gemini
-- Claude
-- Cal.com
-- Jittr
-- Google Drive
-- Bolt.new
-- Theads
-- X (Twitter)
-- Instagram
-- LinkedIn
-- Facebook
-- Tokopedia
-- Youtube
-- Youtube Music
-- Google Chat
-- Google Contact
-- Google Docs
-- Google Sheets
-- Google Slides
-- Google Meet
-- Github
-- Hashnode
-- Picth
-- Excalidraw
-- Tldraw
-- Whimsical
-- Miro
-- Dribbble
-- Medium
-- Daily.dev
-- Dev.to
-- Beehiiv
-- Google News
-- Makeit
-- Peerlist
-- Google Maps
-- Google Photos
-- Eleven Labs
+    # For current workdir
+    brew bundle --file=./.Brewfile check || brew bundle --file=./.Brewfile install
+  ```
 
 ## Migrations
 
