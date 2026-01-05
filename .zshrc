@@ -1,36 +1,21 @@
-# ZSH CONFIGURATION
-# Oh My Posh configuration
+# ============== ZSH CONFIGURATION =================== #
+# Integrations & completion
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/one-thing.omp.json)"
 fi
-
-# Integrations & completion
 eval "$(zoxide init zsh)"
-# source <(kubectl completion zsh)
 
-# Register all SSH Key on
-# first run shell
-eval "$(ssh-agent -s)"
-ssh-add --apple-use-keychain ~/.ssh/id_github
-
-# Git configuration that allow to automatically add the SSH key
-# Only run when the command run is 'git'
-function register_git_ssh_key {
-  if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    eval "$(ssh-agent -s)" > /dev/null
-  fi
-  if ! ssh-add -l | grep -q ~/.ssh/id_github; then
-    ssh-add --apple-use-keychain ~/.ssh/id_github > /dev/null
-  fi
-}
-
-function git {
-  register_git_ssh_key
-  command git "$@"
-}
+# Automatically run agent and add the SSH keys
+# TODO: Register all of your keys
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+  eval "$(ssh-agent -s)" > /dev/null
+fi
+if ! ssh-add -l > /dev/null; then
+  ssh-add --apple-use-keychain ~/.ssh/id_github > /dev/null
+fi
 
 # Alias configuration
-# for commands
+# Commands
 alias cd='z'
 alias ls='eza --icons --tree --level=1 -l'
 alias la='eza --icons --tree --level=1 --all -l'
@@ -42,11 +27,9 @@ alias rm='rm -rf -i'
 alias cp='cp -r'
 alias mv='mv -i'
 
-# File Finder
+# Files
 alias fp="fzf --preview'bat {}'"
 alias ff='fzf'
-
-# Files
 alias cat='bat'
 alias less='bat'
 
