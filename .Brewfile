@@ -32,6 +32,7 @@ brew "nvim"
 brew "helix"
 brew "gh"
 brew "ruby"
+brew "gemini-cli"
 
 ## Casks
 cask "blip"
