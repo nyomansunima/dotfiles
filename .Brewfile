@@ -31,6 +31,7 @@ brew "oh-my-posh"
 brew "nvim"
 brew "helix"
 brew "gh"
+brew "ruby"
 
 ## Casks
 cask "blip"
