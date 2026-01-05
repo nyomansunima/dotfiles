@@ -8,6 +8,11 @@ fi
 eval "$(zoxide init zsh)"
 # source <(kubectl completion zsh)
 
+# Register all SSH Key on
+# first run shell
+eval "$(ssh-agent -s)"
+ssh-add --apple-use-keychain ~/.ssh/id_github
+
 # Git configuration that allow to automatically add the SSH key
 # Only run when the command run is 'git'
 function register_git_ssh_key {
@@ -57,15 +62,27 @@ alias gd='git diff'
 alias gco='git checkout'
 alias gbr='git branch'
 alias glog='git log --oneline --decorate --graph'
-alias gmerge='git merge'
-alias greset='git reset --hard HEAD'
+alias gmer='git merge'
+alias gres='git reset --hard HEAD'
 
 # CLIs
 alias lgit='lazygit'
 alias ldoc='lazydocker'
 
 # Homebrew
-alias bu='brew update'
-alias bc='brew cleanup'
-alias bs='brew search'
-alias br='brew autoremove'
+alias bw='brew'
+alias bwu='brew update'
+alias bwc='brew cleanup'
+alias bws='brew search'
+alias bwr='brew autoremove'
+alias bwi='brew install'
+alias bwu='brew uninstall'
+alias bwbi='brew bundle install'
+alias bwbc='brew bundle check'
+
+# Bun
+alias br='bun run'
+alias bi='bun install'
+alias ba='bun add'
+alias brm='bun remove'
+alias bu='bun update'
