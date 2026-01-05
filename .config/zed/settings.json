@@ -13,10 +13,15 @@
 
   // theme, icons, tweaks
   "theme": {
+    "mode": "system",
     "dark": "One Thing Dark",
     "light": "One Thing Light",
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
 
   // panels and features
   "agent": {
