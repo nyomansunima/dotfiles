@@ -8,10 +8,10 @@ eval "$(zoxide init zsh)"
 # Automatically run agent and add the SSH keys
 # TODO: Register all of your keys
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-  eval "$(ssh-agent -s)" > /dev/null
+  eval "$(ssh-agent -s -q)" > /dev/null
 fi
 if ! ssh-add -l > /dev/null; then
-  ssh-add --apple-use-keychain ~/.ssh/id_github > /dev/null
+  ssh-add -q --apple-use-keychain ~/.ssh/id_github > /dev/null
 fi
 
 # Alias configuration
