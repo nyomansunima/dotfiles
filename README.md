@@ -143,7 +143,7 @@ To doing migrations, we need to use `stow` as symlink tools to connect the dotfi
   stow -D -t ~ .
 
   # Do symlink
-  stow -t ~ .
+  stow -t ~ . --adopt
 ```
 
 The command will remove all the recent symlink and then install the new one.
