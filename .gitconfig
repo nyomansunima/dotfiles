@@ -2,8 +2,8 @@
 	format = ssh
 [user]
 	signingkey = ~/.ssh/id_github.pub
-	email = heysunima@gmail.com
 	name = Nyoman Sunima
+	email = nyomansunima@gmail.com
 [commit]
 	gpgsign = true
 [filter "lfs"]

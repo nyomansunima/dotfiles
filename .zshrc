@@ -1,7 +1,3 @@
-# Autoloads
-autoload -Uz compinit
-compinit
-
 # ZSH CONFIGURATION
 # Oh My Posh configuration
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
@@ -9,9 +5,8 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 fi
 
 # Integrations & completion
-[ -s "~/.bun/_bun" ] && source "~/.bun/_bun"
 eval "$(zoxide init zsh)"
-source <(kubectl completion zsh)
+# source <(kubectl completion zsh)
 
 # Git configuration that allow to automatically add the SSH key
 # Only run when the command run is 'git'
