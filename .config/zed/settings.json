@@ -175,7 +175,7 @@
     "folds": false,
   },
   "cursor_shape": "bar",
-  "soft_wrap": "none",
+  "soft_wrap": "bounded",
   "git": {
     "git_gutter": "tracked_files",
     "gutter_debounce": 200,
