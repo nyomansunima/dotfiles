@@ -54,7 +54,7 @@ alias ldoc='lazydocker'
 
 # Homebrew
 alias bw='brew'
-alias bwu='brew update'
+alias bwup='brew update'
 alias bwc='brew cleanup'
 alias bws='brew search'
 alias bwr='brew autoremove'
@@ -62,6 +62,7 @@ alias bwi='brew install'
 alias bwu='brew uninstall'
 alias bwbi='brew bundle install'
 alias bwbc='brew bundle check'
+alias bwl='brew list'
 
 # Bun
 alias br='bun run'
