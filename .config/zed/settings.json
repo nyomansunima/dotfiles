@@ -133,7 +133,7 @@
     "file_icons": false,
   },
   "indent_guides": {
-    "enabled": true,
+    "enabled": false,
     "active_line_width": 2,
     "coloring": "fixed",
   },
@@ -209,6 +209,7 @@
     "**/.next",
     "**/.astro",
     "**/.vercel",
+    "**/.tanstack",
     "**/CVS",
     "**/.DS_Store",
     "**/Thumbs.db",
