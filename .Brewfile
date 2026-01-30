@@ -5,6 +5,7 @@
 # Taps
 tap "jandedobbeleer/oh-my-posh"
 tap "oven-sh/bun"
+tap "anomalyco/tap"
 
 # Formulas
 brew "git"
@@ -33,6 +34,7 @@ brew "helix"
 brew "gh"
 brew "ruby"
 brew "gemini-cli"
+brew "opencode"
 
 ## Casks
 cask "blip"
