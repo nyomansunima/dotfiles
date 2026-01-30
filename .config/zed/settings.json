@@ -69,8 +69,8 @@
       "show": "never",
     },
     "indent_size": 12,
-    "folder_icons": false,
-    "file_icons": false,
+    "folder_icons": true,
+    "file_icons": true,
     "entry_spacing": "comfortable",
     "show_diagnostics": "off",
     "sticky_scroll": false,
@@ -130,7 +130,7 @@
   },
   "file_finder": {
     "modal_max_width": "small",
-    "file_icons": false,
+    "file_icons": true,
   },
   "indent_guides": {
     "enabled": false,
