@@ -35,6 +35,7 @@ brew "gh"
 brew "ruby"
 brew "gemini-cli"
 brew "opencode"
+brew "nushell"
 
 ## Casks
 cask "blip"
