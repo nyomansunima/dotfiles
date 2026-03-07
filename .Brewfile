@@ -36,6 +36,8 @@ brew "ruby"
 brew "gemini-cli"
 brew "opencode"
 brew "nushell"
+brew "mas"
+brew "lazyssh"
 
 ## Casks
 cask "blip"
@@ -57,3 +59,9 @@ cask "elmedia-player"
 cask "hoopscotch"
 cask "podman-desktop"
 cask "docker-desktop"
+cask "android-studio"
+cask "localsend"
+cask "termius"
+
+# Native macos apps
+mas "497799835"
