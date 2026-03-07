@@ -8,25 +8,17 @@
 // from the command palette or from `Zed` application menu.
 {
   "features": {
-    "edit_prediction_provider": "zed",
+    "edit_prediction_provider": "none",
   },
 
   // theme, icons, tweaks
-  "theme": {
-    "mode": "system",
-    "dark": "One Thing Dark",
-    "light": "One Thing Light",
-  },
-  "icon_theme": {
-    "mode": "system",
-    "light": "Zed (Default)",
-    "dark": "Zed (Default)",
-  },
+  "theme": "Gruvbox Material Light Mix",
+  "icon_theme": "Zed (Default)",
 
   // panels and features
   "agent": {
     "default_profile": "write",
-    "button": false,
+    "button": true,
     "dock": "right",
     "default_model": {
       "provider": "google",
@@ -34,14 +26,14 @@
     },
   },
   "search": {
-    "button": false,
+    "button": true,
   },
   "collaboration_panel": {
-    "button": false,
+    "button": true,
     "dock": "right",
   },
   "outline_panel": {
-    "button": false,
+    "button": true,
     "dock": "left",
     "indent_guides": {
       "show": "never",
@@ -58,7 +50,7 @@
     "button": false,
   },
   "project_panel": {
-    "button": false,
+    "button": true,
     "dock": "left",
     "git_status": false,
     "auto_fold_dirs": false,
@@ -79,8 +71,8 @@
     "default_width": 360,
   },
   "git_panel": {
-    "button": false,
-    "dock": "right",
+    "button": true,
+    "dock": "left",
     "status_style": "label_color",
   },
   "diagnostics": {
@@ -89,7 +81,7 @@
   "debugger": {
     "button": false,
   },
-  "global_lsp_settings": { "button": false },
+  "global_lsp_settings": { "button": true },
 
   // interfaces configs
   "ui_font_family": ".SystemUIFont",
@@ -119,7 +111,7 @@
     "enable_preview_from_file_finder": true,
   },
   "tab_bar": {
-    "show": false,
+    "show": true,
     "show_nav_history_buttons": false,
   },
   "max_tabs": null,
@@ -130,7 +122,7 @@
   },
   "file_finder": {
     "modal_max_width": "small",
-    "file_icons": true,
+    "file_icons": false,
   },
   "indent_guides": {
     "enabled": false,
@@ -138,7 +130,7 @@
     "coloring": "fixed",
   },
   "edit_predictions": {
-    "mode": null,
+    "mode": "eager",
     "disabled_globs": null,
   },
   "relative_line_numbers": "disabled",
@@ -228,4 +220,37 @@
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
   "languages": {},
+
+  // Assign for custom file types
+  "file_types": {
+    "TOML": [".Brewfile", "config*"],
+  },
+
+  // Extensions
+  "auto_install_extensions": {
+    "html": true,
+    "toml": true,
+    "java": true,
+    "git-firefly": true,
+    "dockerfile": true,
+    "php": true,
+    "vue": true,
+    "scss": true,
+    "lua": true,
+    "xml": true,
+    "svelte": true,
+    "csharp": true,
+    "elixir": true,
+    "dart": true,
+    "zig": true,
+    "astro": true,
+    "emmet": true,
+    "kotlin": true,
+    "log": true,
+    "nix": true,
+    "docker-compose": true,
+    "env": true,
+    "groovy": true,
+    "scala": true,
+  },
 }

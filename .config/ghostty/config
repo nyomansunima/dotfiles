@@ -8,8 +8,8 @@ font-family = JetBrainsMonoNL Nerd Font Mono
 font-thicken = true
 
 # UI Configurations
-window-theme = system
-theme = light:one-thing-light.conf,dark:one-thing-dark.conf
+window-theme = light
+theme = gruvbox-material-medium-light
 background-opacity = 1
 background-blur-radius = 0
 macos-titlebar-proxy-icon = hidden
@@ -25,7 +25,6 @@ shell-integration-features = no-cursor
 
 # Cursor settings
 cursor-style = bar
-cursor-color = #46C3AC
 cursor-style-blink = true
 adjust-cursor-thickness = 2
 adjust-underline-thickness = 2

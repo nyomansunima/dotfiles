@@ -1,6 +1,6 @@
 # HELIX CONFIGURATION FILE
 # You can find all of the configuration detail on the official documentation
-theme = "emacs"
+theme = "gruvbox_light"
 
 # Editor configuration
 [editor]
