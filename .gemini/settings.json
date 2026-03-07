@@ -6,5 +6,12 @@
   },
   "ui": {
     "theme": "Xcode"
+  },
+  "general": {
+    "sessionRetention": {
+      "warningAcknowledged": true,
+      "enabled": true,
+      "maxAge": "30d"
+    }
   }
 }
