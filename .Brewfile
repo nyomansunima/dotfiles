@@ -39,8 +39,10 @@ brew "nushell"
 brew "mas"
 brew "lazyssh"
 
+# Programmings
+brew "uv"
+
 ## Casks
-cask "blip"
 cask "brave-browser"
 cask "ghostty"
 cask "keyboardcleantool"
@@ -62,6 +64,7 @@ cask "docker-desktop"
 cask "android-studio"
 cask "localsend"
 cask "termius"
+cask "discord"
 
 # Native macos apps
 mas "497799835"
