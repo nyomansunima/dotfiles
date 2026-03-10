@@ -1,7 +1,7 @@
 # ============== ZSH CONFIGURATION =================== #
 # Integrations & completion
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/atomic.omp.json')"
+  eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/gruvbox-material.omp.json)"
 fi
 eval "$(zoxide init zsh)"
 
