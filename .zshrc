@@ -1,7 +1,7 @@
 # ============== ZSH CONFIGURATION =================== #
 # Integrations & completion
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json')"
+  eval "$(oh-my-posh init zsh --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/atomic.omp.json')"
 fi
 eval "$(zoxide init zsh)"
 
@@ -70,3 +70,6 @@ alias bi='bun install'
 alias ba='bun add'
 alias brm='bun remove'
 alias bu='bun update'
+
+# Added by Antigravity
+export PATH="/Users/nyomansunima/.antigravity/antigravity/bin:$PATH"
