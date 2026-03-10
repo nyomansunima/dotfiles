@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "features": {
-    "edit_prediction_provider": "none",
+    "edit_prediction_provider": "zed",
   },
 
   // theme, icons, tweaks
@@ -223,7 +223,8 @@
 
   // Assign for custom file types
   "file_types": {
-    "TOML": [".Brewfile", "config*"],
+    "TOML": ["config*"],
+    "RUBY": [".Brewfile"],
   },
 
   // Extensions
@@ -252,5 +253,8 @@
     "env": true,
     "groovy": true,
     "scala": true,
+    "ruby": true,
+    "gruvbox-material-mix": true,
   },
+  "auto_update_extensions": {},
 }
