@@ -17,7 +17,7 @@ macos-titlebar-style = hidden
 
 # Window settings
 window-padding-x = 8
-window-padding-y = 0
+window-padding-y = 8
 window-padding-balance = true
 
 # Shell integrations

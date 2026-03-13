@@ -224,7 +224,7 @@
           "type": "os"
         },
         {
-          "background": "#98971a",
+          "background": "#b8e994",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#b8e994{{end}}",
             "{{if eq \"Discharging\" .State.String}}#fff34e{{end}}",
