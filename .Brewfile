@@ -38,6 +38,7 @@ brew "opencode"
 brew "nushell"
 brew "mas"
 brew "lazyssh"
+brew "btop"
 
 # Programmings
 brew "uv"
