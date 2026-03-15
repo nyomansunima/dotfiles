@@ -248,10 +248,10 @@
           "invert_powerline": true,
           "leading_diamond": "\ue0b2",
           "options": {
-            "time_format": "_2,15:04"
+            "time_format": "15:04"
           },
           "style": "diamond",
-          "template": " \uf073 {{ .CurrentDate | date .Format }} ",
+          "template": " \u2665 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b4",
           "type": "time"
         }
