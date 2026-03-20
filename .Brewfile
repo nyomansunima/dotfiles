@@ -66,6 +66,8 @@ cask "android-studio"
 cask "localsend"
 cask "termius"
 cask "discord"
+cask "notion-calendar"
+cask "notion-mail"
 
 # Native macos apps
 mas "497799835"
