@@ -119,8 +119,12 @@ Some command line tools that are installed on the computer and other devices.
 
 To install all of the application, we gonna combine the homebrew, cask, and web apps. To make sure all configurations work properly, you just need to run `setup.sh` that automates the installation process.
 
-```
+```sh
+# Give permission to execute the script
 chmod +x ./scripts/setup.sh
+
+# Run the setup script
+./scripts/setup.sh
 ```
 
 ## Documentation
