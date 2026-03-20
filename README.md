@@ -117,36 +117,11 @@ Some command line tools that are installed on the computer and other devices.
 
 ## Installation
 
-To install all of the application, we gonna combine the homebrew, cask, and web apps.
+To install all of the application, we gonna combine the homebrew, cask, and web apps. To make sure all configurations work properly, you just need to run `setup.sh` that automates the installation process.
 
-- Install the homebrew first, go to [https://brew.sh/](https://brew.sh/) then follow the installation instruction. Or for fast run the following command.
-  ```sh
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
-- Before starting to install, make sure you copy the `.Brewfile` into `~/.Brewfile` or using specific command for different location.
-- Start install the command line tools using homebrew via .Brefile.
-
-  ```sh
-    # For global use
-    brew bundle check --global || brew bundle install --global
-
-    # For current workdir
-    brew bundle --file=./.Brewfile check || brew bundle --file=./.Brewfile install
-  ```
-
-## Migrations
-
-To doing migrations, we need to use `stow` as symlink tools to connect the dotfiles configs into the positions. To execute, run the following command.
-
-```sh
-  # Ensure the symlink clean
-  stow -D -t ~ .
-
-  # Do symlink
-  stow -t ~ . --adopt
 ```
-
-The command will remove all the recent symlink and then install the new one.
+chmod +x ./scripts/setup.sh
+```
 
 ## Documentation
 
