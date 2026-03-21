@@ -22,16 +22,17 @@ alias la='eza --icons --tree --level=1 --all -l'
 alias c='clear'
 alias h='history'
 alias up='brew update && brew upgrade && brew cleanup'
-alias t='touch'
-alias rm='rm -rf -i'
-alias cp='cp -r'
-alias mv='mv -i'
 
 # Files
 alias fp="fzf --preview'bat {}'"
 alias ff='fzf'
 alias cat='bat'
 alias less='bat'
+alias tc='touch'
+alias md='mkdir'
+alias rm='rm -rf -i'
+alias cp='cp -r'
+alias mv='mv -i'
 
 # Git
 alias g='git'
