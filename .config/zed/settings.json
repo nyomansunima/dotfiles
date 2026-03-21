@@ -86,7 +86,7 @@
   // interfaces configs
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
-  "ui_font_size": 15.5,
+  "ui_font_size": 15,
   "format_on_save": "on",
   "show_call_status_icon": false,
   "formatter": "auto",
@@ -136,7 +136,7 @@
   "relative_line_numbers": "disabled",
 
   // buffer, editor settings
-  "buffer_font_size": 13,
+  "buffer_font_size": 12.5,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_weight": 500,
   "buffer_font_features": {
