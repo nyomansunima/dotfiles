@@ -39,6 +39,7 @@ brew "nushell"
 brew "mas"
 brew "lazyssh"
 brew "btop"
+brew "television"
 
 # Programmings
 brew "uv"
