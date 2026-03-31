@@ -53,6 +53,20 @@ alias gres='git reset --hard HEAD'
 alias lgit='lazygit'
 alias ldoc='lazydocker'
 
+# Docker & Containers
+alias dc='docker compose'
+alias d='docker'
+alias dps='docker ps'
+alias dp='docker pull'
+alias drm='docker rm'
+alias drmi='docker rmi'
+alias drun='docker run'
+alias dexec='docker exec -it'
+alias dlogs='docker logs'
+alias pm='podman machine'
+alias pmstart='podman machine start'
+alias pmstop='podman machine stop'
+
 # Homebrew
 alias bw='brew'
 alias bwup='brew update'
@@ -71,6 +85,3 @@ alias bi='bun install'
 alias ba='bun add'
 alias brm='bun remove'
 alias bu='bun update'
-
-# Added by Antigravity
-export PATH="/Users/nyomansunima/.antigravity/antigravity/bin:$PATH"
