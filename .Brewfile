@@ -69,6 +69,7 @@ cask "termius"
 cask "discord"
 cask "notion-calendar"
 cask "notion-mail"
+cask "spotify"
 
 # Native macos apps
 mas "497799835"

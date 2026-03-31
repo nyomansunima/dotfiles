@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # Variables and configuration env
-# Define color variables using tput
+# color variables using tput
 red=$(tput setaf 1)
 green=$(tput setaf 2)
 blue=$(tput setaf 4)
