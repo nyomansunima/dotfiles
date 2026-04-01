@@ -14,7 +14,7 @@
         },
         {
           "background": "#ef5350",
-          "foreground": "#FFFB38",
+          "foreground": "#ffffff",
           "style": "diamond",
           "template": "<parentBackground>\ue0b0</> \uf292 ",
           "type": "root"
@@ -24,12 +24,10 @@
           "foreground": "#2d3436",
           "powerline_symbol": "\ue0b0",
           "options": {
-            "folder_icon": " \uf07b ",
-            "home_icon": "\ue617",
             "style": "folder"
           },
           "style": "powerline",
-          "template": " \uf07b\uea9c {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "type": "path"
         },
         {
@@ -42,11 +40,7 @@
           ],
           "foreground": "#011627",
           "powerline_symbol": "\ue0b0",
-          "options": {
-            "branch_icon": "\ue725 ",
-            "fetch_status": true,
-            "fetch_upstream_icon": true
-          },
+          "options": {},
           "style": "powerline",
           "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} ",
           "type": "git"
