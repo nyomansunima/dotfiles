@@ -40,6 +40,8 @@ brew "mas"
 brew "lazyssh"
 brew "btop"
 brew "television"
+brew "cloudflared"
+brew "portless"
 
 # Programmings
 brew "uv"

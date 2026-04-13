@@ -12,8 +12,8 @@
   },
 
   // theme, icons, tweaks
-  "theme": "Gruvbox Material Light Mix",
-  "icon_theme": "Zed (Default)",
+  "theme": "Gruvbox Material Light",
+  "icon_theme": "Kokedera Icons",
 
   // panels and features
   "agent": {
@@ -63,6 +63,10 @@
     "indent_size": 12,
     "folder_icons": true,
     "file_icons": true,
+    "auto_open": {
+      "on_drop": false,
+      "on_paste": false,
+    },
     "entry_spacing": "comfortable",
     "show_diagnostics": "off",
     "sticky_scroll": false,
@@ -122,7 +126,7 @@
   },
   "file_finder": {
     "modal_max_width": "small",
-    "file_icons": false,
+    "file_icons": true,
   },
   "indent_guides": {
     "enabled": false,
@@ -137,7 +141,7 @@
 
   // buffer, editor settings
   "buffer_font_size": 12.5,
-  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono NL",
   "buffer_font_weight": 500,
   "buffer_font_features": {
     "ss01": true,
@@ -174,9 +178,10 @@
     "line_numbers": false,
     "runnables": false,
     "folds": false,
+    "breakpoints": false,
   },
   "cursor_shape": "bar",
-  "soft_wrap": "bounded",
+  "soft_wrap": "none",
   "git": {
     "git_gutter": "tracked_files",
     "gutter_debounce": 200,
@@ -188,7 +193,7 @@
 
   // Terminals and command executions
   "terminal": {
-    "font_family": "JetBrainsMono Nerd Font Mono",
+    "font_family": "JetBrainsMonoNL Nerd Font Mono",
     "line_height": "comfortable",
     "font_size": 12.5,
     "font_weight": 600,
@@ -205,6 +210,7 @@
   // extension & managements
   "file_scan_exclusions": [
     "**/.git",
+    "**/.wrangler",
     "**/.svn",
     "**/.hg",
     "**/.next",

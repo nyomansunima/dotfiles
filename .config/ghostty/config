@@ -9,7 +9,7 @@ font-thicken = true
 
 # UI Configurations
 window-theme = light
-theme = gruvbox-material-medium-light
+theme = friday-light
 background-opacity = 1
 background-blur-radius = 0
 macos-titlebar-proxy-icon = hidden

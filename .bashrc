@@ -1,7 +1,7 @@
 # ================== BASH CONFIGURATION ================== #
 # Integration and completion
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/gruvbox-material.omp.json)"
+  eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/friday.omp.json)"
 fi
 eval "$(zoxide init bash)"
 
