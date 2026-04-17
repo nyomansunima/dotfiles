@@ -3,7 +3,13 @@
 \.github
 \.zed
 scripts
+node_modules
 ^/README.*
 ^/LICENSE.*
 ^/CODE_OF_CONDUCT.*
 ^/CONTRIBUTING.*
+^/package.json
+^/package-lock.json
+^/bun.lock
+^/oxlint.config.ts
+^/oxfmt.config.ts
