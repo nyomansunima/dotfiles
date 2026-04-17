@@ -78,8 +78,8 @@
           "type": "node"
         },
         {
-          "background": "#306998",
-          "foreground": "#FFE873",
+          "background": "#38726C",
+          "foreground": "#C8E4E1",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
@@ -237,8 +237,8 @@
           "type": "battery"
         },
         {
-          "background": "#427b58",
-          "foreground": "#ffffff",
+          "background": "#38726C",
+          "foreground": "#e4f2f0",
           "invert_powerline": true,
           "leading_diamond": "\ue0b2",
           "options": {
@@ -257,13 +257,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#665c54",
+          "foreground": "#e0aaff",
           "style": "plain",
           "template": "\u2570\u2500",
           "type": "text"
         },
         {
-          "foreground": "#665c54",
+          "foreground": "#5704C4",
           "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
           "options": {
             "always_enabled": true
