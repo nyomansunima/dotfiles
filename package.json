@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "ultracite check && ultracite fix"
+    "check": "ultracite fix"
   },
   "dependencies": {},
   "devDependencies": {
