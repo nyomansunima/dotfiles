@@ -80,7 +80,7 @@ alias bwbc='brew bundle check'
 alias bwl='brew list'
 
 # Bun
-alias br='bun run'
+alias br='bun run --bun'
 alias bi='bun install'
 alias ba='bun add'
 alias brm='bun remove'
