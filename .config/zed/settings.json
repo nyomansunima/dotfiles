@@ -92,9 +92,10 @@
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
   "ui_font_size": 15,
-  "format_on_save": "on",
+  "format_on_save": "off",
   "show_call_status_icon": false,
-  "formatter": "auto",
+  "show_whitespaces": "none",
+  "formatter": "language_server",
   "ui_font_features": {
     "ss01": true,
     "ss02": true,
