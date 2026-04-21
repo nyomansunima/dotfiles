@@ -72,6 +72,8 @@ cask "discord"
 cask "notion-calendar"
 cask "notion-mail"
 cask "spotify"
+cask "cavalry"
+cask "capcut"
 
 # Native macos apps
 mas "497799835"
