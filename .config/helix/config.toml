@@ -1,6 +1,6 @@
 # HELIX CONFIGURATION FILE
 # You can find all of the configuration detail on the official documentation
-theme = "gruvbox_light"
+theme = "gruvbox_light_soft"
 
 # Editor configuration
 [editor]

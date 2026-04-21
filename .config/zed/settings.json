@@ -26,6 +26,7 @@
     }
   },
   "disable_ai": true,
+  "confirm_quit": true,
   "search": {
     "button": false
   },
@@ -81,7 +82,11 @@
     "status_style": "label_color"
   },
   "diagnostics": {
-    "button": false
+    "button": false,
+    "inline": {
+      "include_warnings": false,
+      "enabled": false
+    }
   },
   "debugger": {
     "button": false
@@ -119,6 +124,9 @@
   "tab_bar": {
     "show": false,
     "show_nav_history_buttons": false
+  },
+  "status_bar": {
+    "experimental.show": false
   },
   "max_tabs": null,
   "toolbar": {
@@ -160,10 +168,12 @@
     "show": "never"
   },
   "title_bar": {
+    "show": "never",
     "show_branch_icon": false,
     "show_branch_name": false,
     "show_onboarding_banner": false,
     "show_user_picture": false,
+    "show_user_menu": false,
     "show_project_items": false,
     "show_menus": false,
     "show_sign_in": false
