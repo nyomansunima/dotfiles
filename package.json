@@ -8,7 +8,7 @@
   "dependencies": {},
   "devDependencies": {
     "oxfmt": "^0.44.0",
-    "oxlint": "^1.59.0",
+    "oxlint": "^1.61.0",
     "ultracite": "7.5.6"
   }
 }
