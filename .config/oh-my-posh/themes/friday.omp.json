@@ -222,7 +222,7 @@
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#b8e994{{end}}",
             "{{if eq \"Discharging\" .State.String}}#fff34e{{end}}",
-            "{{if eq \"Full\" .State.String}}#db8098{{end}}"
+            "{{if eq \"Full\" .State.String}}#7bccca{{end}}"
           ],
           "foreground": "#262626",
           "invert_powerline": true,
