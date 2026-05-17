@@ -62,7 +62,7 @@
     "scrollbar": {
       "show": "never"
     },
-    "indent_size": 12,
+    "indent_size": 8,
     "folder_icons": true,
     "file_icons": true,
     "auto_open": {
@@ -96,7 +96,7 @@
   // interfaces configs
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
-  "ui_font_size": 15,
+  "ui_font_size": 15.5,
   "format_on_save": "off",
   "show_call_status_icon": false,
   "show_whitespaces": "none",
