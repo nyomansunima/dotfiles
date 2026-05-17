@@ -42,6 +42,7 @@ brew "btop"
 brew "television"
 brew "cloudflared"
 brew "portless"
+brew "scala"
 
 # Programmings
 brew "uv"
