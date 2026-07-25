@@ -45,6 +45,7 @@ brew "portless"
 brew "scala"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
+brew "cloudflare-wrangler"
 
 # Programmings
 brew "uv"
