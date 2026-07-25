@@ -43,6 +43,8 @@ brew "television"
 brew "cloudflared"
 brew "portless"
 brew "scala"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
 
 # Programmings
 brew "uv"
