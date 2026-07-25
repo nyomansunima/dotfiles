@@ -7,14 +7,10 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-
+  "cli_default_open_behavior": "new_window",
   // theme, icons, tweaks
   "theme": "Friday Light",
   "icon_theme": "Kokedera Icons",
-
   // panels and features
   "agent": {
     "default_profile": "write",
@@ -47,9 +43,6 @@
     "file_icons": false,
     "git_status": false,
     "indent_size": 12
-  },
-  "notification_panel": {
-    "button": false
   },
   "project_panel": {
     "button": false,
@@ -84,20 +77,20 @@
   "diagnostics": {
     "button": false,
     "inline": {
-      "include_warnings": false,
       "enabled": false
     }
   },
   "debugger": {
     "button": false
   },
-  "global_lsp_settings": { "button": false },
-
+  "global_lsp_settings": {
+    "button": false
+  },
   // interfaces configs
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 500,
   "ui_font_size": 15.5,
-  "format_on_save": "off",
+  "format_on_save": "on",
   "show_call_status_icon": false,
   "show_whitespaces": "none",
   "formatter": "language_server",
@@ -144,11 +137,11 @@
     "coloring": "fixed"
   },
   "edit_predictions": {
+    "provider": "zed",
     "mode": "eager",
     "disabled_globs": null
   },
   "relative_line_numbers": "disabled",
-
   // buffer, editor settings
   "buffer_font_size": 12.5,
   "buffer_font_family": "JetBrains Mono NL",
@@ -168,8 +161,6 @@
     "show": "never"
   },
   "title_bar": {
-    "show": "never",
-    "show_branch_icon": false,
     "show_branch_name": false,
     "show_onboarding_banner": false,
     "show_user_picture": false,
@@ -193,7 +184,7 @@
     "breakpoints": false
   },
   "cursor_shape": "bar",
-  "soft_wrap": "none",
+  "soft_wrap": "prefer_line",
   "git": {
     "git_gutter": "tracked_files",
     "gutter_debounce": 200,
@@ -202,7 +193,6 @@
     },
     "hunk_style": "staged_hollow"
   },
-
   // Terminals and command executions
   "terminal": {
     "font_family": "JetBrainsMonoNL Nerd Font Mono",
@@ -218,7 +208,6 @@
     },
     "copy_on_select": true
   },
-
   // extension & managements
   "file_scan_exclusions": [
     "**/.git",
@@ -243,18 +232,19 @@
     "**/*.gen*",
     "**/.content-collections"
   ],
-
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
   "languages": {},
-  "enable_language_server": false,
-
+  "enable_language_server": true,
   // Assign for custom file types
   "file_types": {
-    "TOML": ["config*"],
-    "RUBY": [".Brewfile"]
+    "TOML": [
+      "config*"
+    ],
+    "RUBY": [
+      ".Brewfile"
+    ]
   },
-
   // Extensions
   "auto_install_extensions": {
     "html": true,
