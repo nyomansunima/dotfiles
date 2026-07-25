@@ -85,3 +85,9 @@ alias bi='bun install'
 alias ba='bun add'
 alias brm='bun remove'
 alias bu='bun update'
+
+# ZSH COMPLETIONS
+# Auto loads all sources and suggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+autoload -Uz compinit
+compinit
