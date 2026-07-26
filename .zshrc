@@ -80,7 +80,7 @@ alias bwbc='brew bundle check'
 alias bwl='brew list'
 
 # Bun
-alias br='bun run --bun'
+alias br='bun run'
 alias bi='bun install'
 alias ba='bun add'
 alias brm='bun remove'
@@ -91,3 +91,7 @@ alias bu='bun update'
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -Uz compinit
 compinit
+
+# Variables and configurations
+# ZSH, Styles, and Colors
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=05"

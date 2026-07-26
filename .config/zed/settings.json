@@ -238,12 +238,8 @@
   "enable_language_server": true,
   // Assign for custom file types
   "file_types": {
-    "TOML": [
-      "config*"
-    ],
-    "RUBY": [
-      ".Brewfile"
-    ]
+    "TOML": ["config*"],
+    "RUBY": [".Brewfile"]
   },
   // Extensions
   "auto_install_extensions": {
