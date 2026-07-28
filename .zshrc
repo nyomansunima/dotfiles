@@ -94,4 +94,4 @@ compinit
 
 # Variables and configurations
 # ZSH, Styles, and Colors
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=05"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=04"
