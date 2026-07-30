@@ -18,5 +18,10 @@
   {
     "context": "Editor",
     "bindings": {}
+  },
+  {
+    "bindings": {
+      "alt-shift-p": "text_finder::Toggle"
+    }
   }
 ]
