@@ -1,0 +1,4 @@
+--dir=./src
+--target=~
+--ignore=.stowrc
+--no-folding

@@ -69,6 +69,8 @@ brew "rust"
 brew "scala"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Modern and pretty fancy file manager for the terminal
+brew "superfile"
 # General purpose fuzzy finder TUI
 brew "television"
 # Extremely fast Python package installer and resolver, written in Rust

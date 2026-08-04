@@ -90,7 +90,6 @@ alias bu='bun update'
 # Auto loads all sources and suggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -Uz compinit
-compinit
 
 # Variables and configurations
 # ZSH, Styles, and Colors
