@@ -34,8 +34,8 @@ brew bundle --file=./.Brewfile check || brew bundle --file=./.Brewfile install
 #
 # This will remove all of the existing symlinks before creating new ones
 echo "${magenta}Linking projects and configurations${reset}"
-stow -D -t ~ .
-stow -t ~ . --adopt
+stow -D .
+stow . --adopt
 
 echo "${green}Now your system is ready for use.${reset}"
 echo "${green}SETUP.SH >> Setup and installations process completed.${reset}"
