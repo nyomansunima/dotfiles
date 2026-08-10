@@ -75,6 +75,8 @@ brew "superfile"
 brew "television"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Why is this running?
+brew "witr"
 # Friendly and fast tool for sending HTTP requests
 brew "xh"
 # Shell extension to navigate your filesystem faster
