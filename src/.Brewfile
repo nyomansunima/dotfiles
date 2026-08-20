@@ -117,6 +117,8 @@ cask "cloudflare-warp"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Developer platform
+cask "dotnet-sdk"
 # Video and audio player
 cask "elmedia-player"
 # Collaborative team software
