@@ -12,7 +12,6 @@ if ! pgrep -u "$USER" ssh-agent > /dev/null; then
 fi
 if ! ssh-add -l > /dev/null; then
   ssh-add -q --apple-use-keychain ~/.ssh/id_github > /dev/null
-  ssh-add -q --apple-use-keychain ~/.ssh/id_gitlab_balimmo > /dev/null
 fi
 
 # Alias configuration

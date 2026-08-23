@@ -47,18 +47,24 @@ brew "lazydocker"
 brew "lazygit"
 # Terminal-based SSH manager
 brew "lazyssh"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
+# Postgres C API library
+brew "libpq", link: true
 # Mac App Store command-line interface
 brew "mas"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Package manager for Microsoft development platform including .NET
+brew "nuget"
 # Modern shell for the GitHub era
 brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Tool for managing OCI containers and pods
 brew "podman"
+# Alternative to docker-compose using podman
+brew "podman-compose"
 # Replace port numbers with stable, named local URLs for humans and agents
 brew "portless"
 # Powerful, clean, object-oriented scripting language
@@ -147,6 +153,8 @@ cask "rive"
 cask "spline"
 # Music streaming service
 cask "spotify"
+# Native database client for many database types
+cask "tablepro"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # SSH client

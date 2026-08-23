@@ -17,11 +17,13 @@
     "button": false,
     "dock": "right",
     "default_model": {
+      "effort": "medium",
+      "enable_thinking": true,
       "provider": "google",
-      "model": "gemini-2.5-flash"
+      "model": "gemini-3.6-flash"
     }
   },
-  "disable_ai": true,
+  "disable_ai": false,
   "confirm_quit": true,
   "search": {
     "button": false
@@ -231,7 +233,9 @@
     "**/build",
     "**/.react-router",
     "**/*.gen*",
-    "**/.content-collections"
+    "**/.content-collections",
+    "**/bin",
+    "**/obj",
   ],
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
