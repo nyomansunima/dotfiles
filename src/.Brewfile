@@ -61,6 +61,10 @@ brew "nuget"
 brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
+# AI agent toolkit
+brew "pi-coding-agent"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Tool for managing OCI containers and pods
 brew "podman"
 # Alternative to docker-compose using podman
@@ -103,6 +107,8 @@ brew "oven-sh/bun/bun"
 cask "affinity"
 # Tools for building Android applications
 cask "android-studio"
+# Terminal interface for Antigravity agents
+cask "antigravity-cli"
 # Desktop password and login vault
 cask "bitwarden"
 # Mobile gaming platform
@@ -143,6 +149,8 @@ cask "localsend"
 cask "notion"
 # Calendar for professionals and teams
 cask "notion-calendar"
+# AI coding agent desktop client
+cask "opencode-desktop"
 # Browse, manage, inspect containers and images
 cask "podman-desktop"
 # Control your tools with a few keystrokes
