@@ -7,11 +7,6 @@
 // from the command palette.
 [
   {
-    "bindings": {
-      "cmd-u": "workspace::ToggleCenteredLayout"
-    }
-  },
-  {
     "context": "Workspace",
     "bindings": {}
   },
@@ -21,7 +16,7 @@
   },
   {
     "bindings": {
-      "alt-shift-p": "text_finder::Toggle"
+      "alt-shift-p": "text_finder::Toggle",
     }
   }
 ]
