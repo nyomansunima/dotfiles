@@ -52,6 +52,7 @@ alias gres='git reset --hard HEAD'
 # CLIs
 alias lgit='lazygit'
 alias ldoc='lazydocker'
+alias lpod='DOCKER_HOST=unix://$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}') lazydocker'
 
 # Docker & Containers
 alias dc='docker compose'
@@ -96,3 +97,5 @@ autoload -Uz compinit
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=04"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+export EDITOR="zed --wait"
