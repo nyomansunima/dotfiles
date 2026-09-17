@@ -5,13 +5,25 @@
     }
   },
   "ui": {
-    "theme": ".gemini/themes/friday-light.json"
+    "theme": "ANSI Light"
   },
   "general": {
     "sessionRetention": {
       "warningAcknowledged": true,
       "enabled": true,
       "maxAge": "30d"
+    }
+  },
+  "mcpServers": {
+    "pencil": {
+      "command": "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+      "args": [
+        "--app",
+        "desktop",
+        "--agent",
+        "geminiCLI"
+      ],
+      "env": {}
     }
   }
 }
