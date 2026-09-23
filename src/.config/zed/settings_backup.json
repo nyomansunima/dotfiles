@@ -7,42 +7,37 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "features": {
-    "edit_prediction_provider": "zed",
-    "copilot": false
+  "agent_servers": {
+    "gemini": {
+      "type": "registry"
+    },
+    "opencode": {
+      "default_config_options": {
+        "mode": "build"
+      },
+      "type": "registry"
+    }
   },
-
+  "cli_default_open_behavior": "new_window",
   // theme, icons, tweaks
-  "theme": "Brook Code Light",
-  "icon_theme": "Zed (Default)",
-
-  // user interfaces settings
-  "ui_font_family": ".SystemUIFont",
-  "ui_font_weight": 500,
-  "ui_font_size": 16,
-  "format_on_save": "on",
-  "show_call_status_icon": false,
-
-  "formatter": "auto",
-  "ui_font_features": {
-    "ss01": true,
-    "ss02": true,
-    "ss03": true,
-    "ss04": true,
-    "ss05": true,
-    "ss06": true,
-    "zero": true,
-    "onum": true,
-    "calt": true
-  },
-  "assistant": {
+  "theme": "Friday Light",
+  "icon_theme": "Kokedera Icons",
+  // panels and features
+  "agent": {
+    "default_profile": "ask",
     "button": false,
     "dock": "right",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
-    },
-    "version": "2"
+      "effort": "minimal",
+      "enable_thinking": true,
+      "provider": "google",
+      "model": "gemini-3-flash-preview"
+    }
+  },
+  "disable_ai": false,
+  "confirm_quit": true,
+  "search": {
+    "button": false
   },
   "collaboration_panel": {
     "button": false,
@@ -62,15 +57,8 @@
     "git_status": false,
     "indent_size": 12
   },
-  "chat_panel": {
-    "button": "when_in_call",
-    "dock": "right"
-  },
-  "notification_panel": {
-    "button": false
-  },
   "project_panel": {
-    "button": true,
+    "button": false,
     "dock": "left",
     "git_status": false,
     "auto_fold_dirs": false,
@@ -80,26 +68,73 @@
     "scrollbar": {
       "show": "never"
     },
-    "indent_size": 12,
+    "indent_size": 8,
     "folder_icons": true,
     "file_icons": true,
+    "auto_open": {
+      "on_drop": false,
+      "on_paste": false
+    },
     "entry_spacing": "comfortable",
-    "show_diagnostics": "off"
+    "show_diagnostics": "off",
+    "sticky_scroll": false,
+    "auto_reveal_entries": true,
+    "hide_root": true,
+    "default_width": 360
+  },
+  "git_panel": {
+    "button": false,
+    "dock": "left",
+    "status_style": "label_color"
+  },
+  "diagnostics": {
+    "button": false,
+    "inline": {
+      "enabled": false
+    }
+  },
+  "debugger": {
+    "button": false
+  },
+  "global_lsp_settings": {
+    "button": false
+  },
+  // interfaces configs
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_weight": 500,
+  "ui_font_size": 15.5,
+  "format_on_save": "on",
+  "show_call_status_icon": false,
+  "show_whitespaces": "none",
+  "formatter": "language_server",
+  "ui_font_features": {
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "ss06": true,
+    "zero": true,
+    "onum": true,
+    "calt": true
   },
   "tabs": {
-    "file_icons": true,
+    "file_icons": false,
     "git_status": false
   },
   "preview_tabs": {
     "enabled": true,
-    "enable_preview_from_code_navigation": true,
+    "enable_keep_preview_on_code_navigation": true,
     "enable_preview_from_file_finder": true
   },
   "tab_bar": {
     "show": true,
     "show_nav_history_buttons": false
   },
-  "max_tabs": 1,
+  "status_bar": {
+    "experimental.show": false
+  },
+  "max_tabs": null,
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
@@ -110,25 +145,19 @@
     "file_icons": true
   },
   "indent_guides": {
-    "enabled": true,
+    "enabled": false,
     "active_line_width": 2,
-    "coloring": "indent_aware"
-  },
-  "show_user_picture": false,
-  "git_panel": {
-    "button": true,
-    "dock": "right",
-    "status_style": "label_color"
+    "coloring": "fixed"
   },
   "edit_predictions": {
+    "provider": "zed",
     "mode": "subtle",
     "disabled_globs": null
   },
-  "relative_line_numbers": false,
-
+  "relative_line_numbers": "disabled",
   // buffer, editor settings
-  "buffer_font_size": 13.5,
-  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 12.5,
+  "buffer_font_family": "JetBrains Mono NL",
   "buffer_font_weight": 500,
   "buffer_font_features": {
     "ss01": true,
@@ -144,6 +173,15 @@
   "scrollbar": {
     "show": "never"
   },
+  "title_bar": {
+    "show_branch_name": false,
+    "show_onboarding_banner": false,
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_project_items": false,
+    "show_menus": false,
+    "show_sign_in": false
+  },
   "current_line_highlight": "gutter",
   "show_edit_predictions": true,
   "inlay_hints": {
@@ -153,42 +191,50 @@
     "show_type_hints": false
   },
   "gutter": {
-    "code_actions": false,
     "line_numbers": false,
     "runnables": false,
-    "folds": true
+    "folds": true,
+    "breakpoints": false,
+    "git_gutter_width": {
+      "custom": 2
+    }
   },
   "cursor_shape": "bar",
-  "soft_wrap": "none",
+  "soft_wrap": "prefer_line",
   "git": {
-    "git_gutter": "tracked_files",
+    "git_gutter": "hide",
     "gutter_debounce": 200,
     "inline_blame": {
       "enabled": false
     },
     "hunk_style": "staged_hollow"
   },
-
   // Terminals and command executions
   "terminal": {
-    "font_family": "JetBrainsMono Nerd Font Mono",
+    "font_family": "JetBrainsMonoNL Nerd Font Mono",
     "line_height": "comfortable",
-    "font_size": 13,
+    "font_size": 12.5,
     "font_weight": 600,
     "dock": "bottom",
     "cursor_shape": "bar",
     "blinking": "on",
-    "copy_on_select": false
+    "button": false,
+    "toolbar": {
+      "breadcrumbs": false
+    },
+    "copy_on_select": true
   },
-
   // extension & managements
   "file_scan_exclusions": [
     "**/.git",
+    "**/.turbo",
+    "**/.wrangler",
     "**/.svn",
     "**/.hg",
     "**/.next",
     "**/.astro",
     "**/.vercel",
+    "**/.tanstack",
     "**/CVS",
     "**/.DS_Store",
     "**/Thumbs.db",
@@ -197,24 +243,51 @@
     "**/.vscode",
     "**/node_modules",
     "**/dist",
+    "**/.output",
     "**/build",
     "**/.react-router",
     "**/*.gen*",
-    "**/api.*",
-    "**/client.*",
-    "**/ssr.*"
+    "**/.content-collections",
+    "**/bin",
+    "**/obj"
   ],
-  "file_types": {
-    "JSON": [".prettierrc"],
-    "Markdown": ["LICENSE"]
-  },
-
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
-  "languages": {
-    "Markdown": {
-      "format_on_save": "on"
-    }
+  "languages": {},
+  "enable_language_server": true,
+  // Assign for custom file types
+  "file_types": {
+    "TOML": ["config*"],
+    "RUBY": [".Brewfile"]
   },
-  "experimental.theme_overrides": {}
+  // Extensions
+  "auto_install_extensions": {
+    "html": true,
+    "toml": true,
+    "java": true,
+    "git-firefly": true,
+    "dockerfile": true,
+    "php": true,
+    "vue": true,
+    "scss": true,
+    "lua": true,
+    "xml": true,
+    "svelte": true,
+    "csharp": true,
+    "elixir": true,
+    "dart": true,
+    "zig": true,
+    "astro": true,
+    "emmet": true,
+    "kotlin": true,
+    "log": true,
+    "nix": true,
+    "docker-compose": true,
+    "env": true,
+    "groovy": true,
+    "scala": true,
+    "ruby": true,
+    "gruvbox-material-mix": true
+  },
+  "auto_update_extensions": {}
 }
