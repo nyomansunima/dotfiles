@@ -16,7 +16,7 @@
   },
   {
     "bindings": {
-      "alt-shift-p": "text_finder::Toggle",
+      "alt-shift-p": "text_finder::Toggle"
     }
   }
 ]

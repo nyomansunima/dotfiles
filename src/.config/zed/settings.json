@@ -207,7 +207,7 @@
     "breakpoints": false,
     "git_gutter_width": {
       "custom": 2
-    },
+    }
   },
   "cursor_shape": "bar",
   "soft_wrap": "prefer_line",
@@ -259,7 +259,7 @@
     "**/*.gen*",
     "**/.content-collections",
     "**/bin",
-    "**/obj",
+    "**/obj"
   ],
   // Languages specific settings
   // used to settings the languages configurations including formatter, linter, etc.
@@ -267,12 +267,8 @@
   "enable_language_server": true,
   // Assign for custom file types
   "file_types": {
-    "TOML": [
-      "config*"
-    ],
-    "RUBY": [
-      ".Brewfile"
-    ]
+    "TOML": ["config*"],
+    "RUBY": [".Brewfile"]
   },
   // Extensions
   "auto_install_extensions": {
