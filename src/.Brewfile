@@ -96,7 +96,9 @@ brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
 brew "zsh-completions"
 # The AI coding agent built for the terminal.
-brew "anomalyco/tap/opencode"
+brew "anomalyco/tap/opencode", link: false
+# OpenCode V2 - the AI coding agent for the terminal
+brew "anomalyco/tap/opencode-v2", trusted: true
 # Browse SSH hosts, manage keys, and connect from the terminal
 brew "ellipse-software/tap/bast"
 # Fast TypeScript runtime and package manager that augments Node
@@ -107,6 +109,8 @@ brew "oven-sh/bun/bun"
 cask "affinity"
 # Tools for building Android applications
 cask "android-studio"
+# Agent orchestration platform
+cask "antigravity"
 # Terminal interface for Antigravity agents
 cask "antigravity-cli"
 # Desktop password and login vault
@@ -123,6 +127,10 @@ cask "canva"
 cask "capcut"
 # Procedural motion design and animation software
 cask "cavalry"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
 # Voice and text chat software
@@ -139,6 +147,8 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Native desktop AI assistant from Google
+cask "google-gemini"
 # Open source API development ecosystem
 cask "hoppscotch"
 # Blocks all Keyboard and TouchBar input

@@ -39,6 +39,24 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-09-23T02:06:35.033Z",
       "updatedAt": "2026-09-23T02:06:35.033Z"
+    },
+    "refero-design": {
+      "source": "referodesign/refero_skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/referodesign/refero_skill.git",
+      "skillPath": "skills/refero-design/SKILL.md",
+      "skillFolderHash": "4c2d358faf71cae46b3d084c4915f2ae0ebad379",
+      "installedAt": "2026-09-28T03:57:34.282Z",
+      "updatedAt": "2026-09-28T03:57:34.282Z"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "skillFolderHash": "48a35ed8010c1667ad9ab22c9c307949ac4eeb6f",
+      "installedAt": "2026-09-28T03:58:51.557Z",
+      "updatedAt": "2026-09-28T03:58:51.557Z"
     }
   },
   "dismissed": {
