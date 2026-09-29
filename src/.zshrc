@@ -99,4 +99,11 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=04"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.bun/bin:$PATH"
 
+# Load secrets from ~/.env if present
+if [ -f "$HOME/.env" ]; then
+  set -a
+  source "$HOME/.env"
+  set +a
+fi
+
 export EDITOR="zed --wait"
