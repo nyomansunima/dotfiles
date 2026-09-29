@@ -99,3 +99,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=04"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.bun/bin:$PATH"
 export EDITOR="zed --wait"
+
+# GitHub MCP token (stored in Keychain, not here)
+export GITHUB_MCP_TOKEN=$(security find-generic-password -s github-mcp-token -w 2>/dev/null)

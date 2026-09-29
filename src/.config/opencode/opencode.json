@@ -1,20 +1,41 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "chrome-devtools": {
-      "type": "local",
-      "command": ["npx", "-y", "chrome-devtools-mcp@latest", "--autoConnect"]
-    },
-    "pencil": {
-      "command": [
-        "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
-        "--app",
-        "desktop",
-        "--agent",
-        "openCodeCLI"
-      ],
-      "enabled": true,
-      "type": "local"
+    "servers": {
+      "chrome-devtools": {
+        "type": "local",
+        "command": ["npx", "-y", "chrome-devtools-mcp@latest", "--autoConnect"]
+      },
+      "pencil": {
+        "command": [
+          "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+          "--app",
+          "desktop",
+          "--agent",
+          "openCodeCLI"
+        ],
+        "type": "local"
+      },
+      "github": {
+        "type": "remote",
+        "url": "https://api.githubcopilot.com/mcp/",
+        "oauth": false,
+        "headers": {
+          "Authorization": "Bearer {env:GITHUB_MCP_TOKEN}"
+        }
+      },
+      "context7": {
+        "type": "remote",
+        "url": "https://mcp.context7.com/mcp"
+      },
+      "ui-skills": {
+        "type": "remote",
+        "url": "https://www.ui-skills.com/mcp"
+      },
+      "figma": {
+        "type": "remote",
+        "url": "https://mcp.figma.com/mcp"
+      }
     }
   }
 }
