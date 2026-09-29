@@ -1,3 +1,32 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true,
+    },
+    "mcp-server": {
+      "type": "local",
+      "command": ["npx", "-y", "@playwright/mcp-server"],
+      "environment": {},
+      "enabled": true,
+    },
+    "github": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
+      "environment": {},
+      "enabled": true,
+    },
+    "ui-skills": {
+      "type": "remote",
+      "url": "https://www.ui-skills.com/mcp",
+      "enabled": true,
+    },
+    "figma": {
+      "type": "remote",
+      "url": "https://mcp.figma.com/mcp",
+      "enabled": true,
+    },
+  },
 }
