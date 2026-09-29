@@ -9,7 +9,7 @@
       "skillFolderHash": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
       "pluginName": "example-skills",
       "installedAt": "2026-09-23T01:44:34.989Z",
-      "updatedAt": "2026-09-23T01:44:34.989Z"
+      "updatedAt": "2026-09-29T02:42:42.445Z"
     },
     "codebase-design": {
       "source": "mattpocock/skills",
@@ -19,7 +19,7 @@
       "skillFolderHash": "344e3efc88ee60663b2e989555c2efdb548fbd42",
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-09-23T01:46:34.616Z",
-      "updatedAt": "2026-09-23T01:46:34.616Z"
+      "updatedAt": "2026-09-28T09:41:56.972Z"
     },
     "find-skills": {
       "source": "vercel-labs/skills",
@@ -47,7 +47,7 @@
       "skillPath": "skills/refero-design/SKILL.md",
       "skillFolderHash": "4c2d358faf71cae46b3d084c4915f2ae0ebad379",
       "installedAt": "2026-09-28T03:57:34.282Z",
-      "updatedAt": "2026-09-28T03:57:34.282Z"
+      "updatedAt": "2026-09-28T10:07:57.165Z"
     },
     "ui-ux-pro-max": {
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -56,7 +56,124 @@
       "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
       "skillFolderHash": "48a35ed8010c1667ad9ab22c9c307949ac4eeb6f",
       "installedAt": "2026-09-28T03:58:51.557Z",
-      "updatedAt": "2026-09-28T03:58:51.557Z"
+      "updatedAt": "2026-09-28T10:08:56.456Z"
+    },
+    "improve-ui": {
+      "source": "ibelick/ui-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ibelick/ui-skills.git",
+      "skillPath": "skills/improve-ui/SKILL.md",
+      "skillFolderHash": "dfe1caace864e8a5db1719c4440633cd7f2f7e83",
+      "installedAt": "2026-09-29T02:41:26.945Z",
+      "updatedAt": "2026-09-29T02:41:26.945Z"
+    },
+    "improve-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/improve-animations/SKILL.md",
+      "skillFolderHash": "cf1f7aabac34c08f2cf833f039fa99af2f415183",
+      "installedAt": "2026-09-29T02:42:59.312Z",
+      "updatedAt": "2026-09-29T02:42:59.312Z"
+    },
+    "improve-react": {
+      "source": "millionco/react-doctor",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/millionco/react-doctor.git",
+      "skillPath": "skills/improve-react/SKILL.md",
+      "skillFolderHash": "0ee95f8644a7a263db14d2a7530134578f7ccf11",
+      "installedAt": "2026-09-29T02:43:36.163Z",
+      "updatedAt": "2026-09-29T02:43:36.163Z"
+    },
+    "improve": {
+      "source": "shadcn/improve",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/improve.git",
+      "skillPath": "skills/improve/SKILL.md",
+      "skillFolderHash": "7d77d76815e6deb704427f17f6e393f55e3cb6da",
+      "installedAt": "2026-09-29T02:43:59.740Z",
+      "updatedAt": "2026-09-29T02:43:59.740Z"
+    },
+    "better-ui": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jakubkrehel/skills.git",
+      "skillPath": "skills/better-ui/SKILL.md",
+      "skillFolderHash": "710b8e9a1b4086594d24050bbb6768dbc421e9dc",
+      "installedAt": "2026-09-29T02:46:21.175Z",
+      "updatedAt": "2026-09-29T02:46:21.175Z"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "skillFolderHash": "01fe78e7bc253016bfc30a3d12036bbf90f1c1bc",
+      "installedAt": "2026-09-29T02:46:32.169Z",
+      "updatedAt": "2026-09-29T02:46:32.169Z"
+    },
+    "interaction-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/ui-design/skills/interaction-design/SKILL.md",
+      "skillFolderHash": "ab21dcd290eb06d4adad17f55f97d765a93cf13b",
+      "installedAt": "2026-09-29T02:48:32.535Z",
+      "updatedAt": "2026-09-29T02:48:32.535Z"
+    },
+    "accessibility": {
+      "source": "addyosmani/web-quality-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/web-quality-skills.git",
+      "skillPath": "skills/accessibility/SKILL.md",
+      "skillFolderHash": "90b7b38a892c625d19408df411e46cca7ff3819d",
+      "installedAt": "2026-09-29T02:48:40.208Z",
+      "updatedAt": "2026-09-29T02:48:40.208Z"
+    },
+    "animate": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/animate/SKILL.md",
+      "skillFolderHash": "a92e36f28d741aee4ff77d1a001300d7e86e07fe",
+      "installedAt": "2026-09-29T02:49:19.375Z",
+      "updatedAt": "2026-09-29T02:49:19.375Z"
+    },
+    "agents-sdk": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/agents-sdk/SKILL.md",
+      "skillFolderHash": "6960162efc4b6fea7bae6963a45527a7783901c2",
+      "installedAt": "2026-09-29T05:16:27.736Z",
+      "updatedAt": "2026-09-29T05:16:27.736Z"
+    },
+    "cloudflare": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "skillFolderHash": "b192c4da28b205911e4ef3c5c66858664ba97865",
+      "installedAt": "2026-09-29T05:16:27.738Z",
+      "updatedAt": "2026-09-29T05:16:27.738Z"
+    },
+    "durable-objects": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/durable-objects/SKILL.md",
+      "skillFolderHash": "4f749492261c6e9895823b3e3bcea54db583623f",
+      "installedAt": "2026-09-29T05:16:27.740Z",
+      "updatedAt": "2026-09-29T05:16:27.740Z"
+    },
+    "wrangler": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/wrangler/SKILL.md",
+      "skillFolderHash": "2cef5beb18fd736ee300a08fc87fca16522f14d6",
+      "installedAt": "2026-09-29T05:16:27.741Z",
+      "updatedAt": "2026-09-29T05:16:27.741Z"
     }
   },
   "dismissed": {
@@ -74,6 +191,7 @@
     "kimi-code-cli",
     "opencode",
     "warp",
-    "zed"
+    "zed",
+    "claude-code"
   ]
 }
