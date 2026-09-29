@@ -15,6 +15,22 @@
     }
   },
   "mcpServers": {
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"]
+    },
+    "ui-skills": {
+      "type": "http",
+      "url": "https://www.ui-skills.com/mcp"
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
     "pencil": {
       "command": "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
       "args": ["--app", "desktop", "--agent", "geminiCLI"],
