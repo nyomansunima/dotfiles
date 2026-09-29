@@ -14,8 +14,7 @@
     },
     "github": {
       "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
-      "environment": {},
+      "command": ["npx", "envmcp", "-y", "@modelcontextprotocol/server-github"],
       "enabled": true,
     },
     "ui-skills": {
