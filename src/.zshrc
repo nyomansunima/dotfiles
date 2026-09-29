@@ -97,5 +97,6 @@ autoload -Uz compinit
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=04"
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.bun/bin:$PATH"
 
 export EDITOR="zed --wait"
