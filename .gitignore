@@ -3,4 +3,6 @@ src/.ssh/id_*
 node_modules/
 
 .env
+.env*
 src/.env
+src/.env*
