@@ -29,6 +29,8 @@ brew "gemini-cli"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Open-source GitLab command-line tool
+brew "glab"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Development kit for the Java programming language
@@ -147,6 +149,8 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Native desktop AI assistant from Google
 cask "google-gemini"
 # Open source API development ecosystem

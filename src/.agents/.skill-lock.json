@@ -174,6 +174,25 @@
       "skillFolderHash": "2cef5beb18fd736ee300a08fc87fca16522f14d6",
       "installedAt": "2026-09-29T05:16:27.741Z",
       "updatedAt": "2026-09-29T05:16:27.741Z"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "skillFolderHash": "39bd9cc130f7dfcc4e3ea0b3613f6ebed0d0ad2b",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-09-30T01:57:06.825Z",
+      "updatedAt": "2026-09-30T01:57:06.825Z"
+    },
+    "resolve-conflicts": {
+      "source": "tailcallhq/forgecode",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tailcallhq/forgecode.git",
+      "skillPath": ".forge/skills/resolve-conflicts/SKILL.md",
+      "skillFolderHash": "6de7a0603cc81f224ddf55cf736e39b7b64d418c",
+      "installedAt": "2026-09-30T09:14:38.558Z",
+      "updatedAt": "2026-09-30T09:14:38.558Z"
     }
   },
   "dismissed": {
