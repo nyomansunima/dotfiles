@@ -4,7 +4,12 @@
     "servers": {
       "chrome-devtools": {
         "type": "local",
-        "command": ["npx", "-y", "chrome-devtools-mcp@latest", "--autoConnect"]
+        "command": [
+          "npx",
+          "-y",
+          "chrome-devtools-mcp@latest",
+          "--autoConnect"
+        ]
       },
       "pencil": {
         "command": [
@@ -35,7 +40,29 @@
       "figma": {
         "type": "remote",
         "url": "https://mcp.figma.com/mcp"
+      },
+      "gitlab-balimmo": {
+        "type": "remote",
+        "url": "https://g1tlab.ops.balimmo.dev/api/v4/mcp"
+      },
+      "open-pencil": {
+        "type": "local",
+        "command": [
+          "/opt/homebrew/bin/openpencil-mcp"
+        ],
+        "enabled": true
       }
+    },
+    "pencil": {
+      "command": [
+        "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
+        "--app",
+        "desktop",
+        "--agent",
+        "openCodeCLI"
+      ],
+      "enabled": true,
+      "type": "local"
     }
   }
 }
