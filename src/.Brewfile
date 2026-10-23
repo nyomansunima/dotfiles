@@ -1,8 +1,11 @@
+tap "abue-ammar/tinycast", trusted: true
 tap "anomalyco/tap", trusted: true
+tap "devdotfast/tap", trusted: true
 tap "ellipse-software/tap", trusted: true
 tap "jandedobbeleer/oh-my-posh", trusted: true
-tap "nubjs/tap"
+tap "nubjs/tap", trusted: true
 tap "oven-sh/bun", trusted: true
+tap "pgrundev/tap", trusted: true
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
@@ -23,8 +26,6 @@ brew "eza"
 brew "fastfetch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# Interact with Google Gemini AI models from the command-line
-brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -39,6 +40,10 @@ brew "openjdk", link: true
 brew "gradle"
 # Post-modern modal text editor
 brew "helix"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
+# Save disk space by cleaning non-essential files from software projects
+brew "kondo"
 # Statically typed programming language for the JVM
 brew "kotlin"
 # Kubernetes command-line interface
@@ -53,6 +58,8 @@ brew "lazyssh"
 brew "libpq", link: true
 # Mac App Store command-line interface
 brew "mas"
+# Deep clean and optimize your Mac
+brew "mole"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -104,9 +111,11 @@ brew "anomalyco/tap/opencode-v2", trusted: true
 # Browse SSH hosts, manage keys, and connect from the terminal
 brew "ellipse-software/tap/bast"
 # Fast TypeScript runtime and package manager that augments Node
-brew "nubjs/tap/nub", trusted: true
+brew "nubjs/tap/nub"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
+# In-database observability for PostgreSQL
+brew "pgrundev/tap/pgbot"
 # Image editing and design software
 cask "affinity"
 # Tools for building Android applications
@@ -121,8 +130,6 @@ cask "bitwarden"
 cask "bluestacks"
 # Web browser focusing on privacy
 cask "brave-browser"
-# Open source IDE for exploring and testing APIs
-cask "bruno"
 # Design tool
 cask "canva"
 # Video editing and image design platform
@@ -137,8 +144,6 @@ cask "claude-code"
 cask "cloudflare-warp"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerised applications and microservices
-cask "docker-desktop"
 # Developer platform
 cask "dotnet-sdk"
 # Video and audio player
@@ -153,22 +158,14 @@ cask "ghostty"
 cask "google-drive"
 # Native desktop AI assistant from Google
 cask "google-gemini"
-# Open source API development ecosystem
-cask "hoppscotch"
 # Blocks all Keyboard and TouchBar input
 cask "keyboardcleantool"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
-# App to write, plan, collaborate, and get organised
-cask "notion"
-# Calendar for professionals and teams
-cask "notion-calendar"
 # AI coding agent desktop client
 cask "opencode-desktop"
-# Browse, manage, inspect containers and images
-cask "podman-desktop"
-# Control your tools with a few keystrokes
-cask "raycast"
+# Open-source design editor compatible with Figma
+cask "openpencil"
 # Design tool that creates functional graphics
 cask "rive"
 # Design and collaborate in 3D
@@ -181,6 +178,8 @@ cask "tablepro"
 cask "telegram"
 # SSH client
 cask "termius"
+# Tiny, fully native launcher, hotkeys, and clipboard history
+cask "abue-ammar/tinycast/tinycast"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Multiplayer code editor
@@ -188,3 +187,4 @@ cask "zed"
 # Gecko based web browser
 cask "zen"
 mas "Xcode", id: 497799835
+npm "@open-pencil/mcp"
