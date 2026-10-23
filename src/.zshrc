@@ -17,8 +17,9 @@ fi
 # Alias configuration
 # Commands
 alias cd='z'
-alias ls='eza --icons --tree --level=1 -l'
-alias la='eza --icons --tree --level=1 --all -l'
+alias ls='eza --icons --tree --level=1'
+alias la='eza --icons --tree --level=1 --all'
+alias lse='eza --tree --icons --git --git-ignore --level=1 -I "node_modules|.next|dist|build|out|.git|.turbo|.cache|.vercel|.wrangler|.open-next|coverage|.DS_Store"'
 alias c='clear'
 alias h='history'
 alias up='brew update && brew upgrade && brew cleanup'
@@ -98,7 +99,11 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=04"
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.bun/bin:$PATH"
-export EDITOR="zed --wait"
+export EDITOR="hx"
+export VISUAL="hx"
 
 # GitHub MCP token (stored in Keychain, not here)
 export GITHUB_MCP_TOKEN=$(security find-generic-password -s github-mcp-token -w 2>/dev/null)
+
+# Open Zed with the familiar 'code' command
+alias code='zed'

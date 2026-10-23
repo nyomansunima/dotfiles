@@ -17,8 +17,8 @@ fi
 # Alias configuration
 # Commands
 alias cd='z'
-alias ls='eza --icons --tree --level=1 -l'
-alias la='eza --icons --tree --level=1 --all -l'
+alias ls='eza --icons --tree --level=1'
+alias la='eza --icons --tree --level=1 --all'
 alias c='clear'
 alias h='history'
 alias up='brew update && brew upgrade && brew cleanup'
