@@ -27,6 +27,13 @@
       "type": "http",
       "url": "https://mcp.figma.com/mcp"
     },
+    "githubcopilot": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "<Authorization>"
+      }
+    },
     "pencil": {
       "command": "/Applications/Pen.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
       "args": [
@@ -36,13 +43,6 @@
         "geminiCLI"
       ],
       "env": {}
-    },
-    "githubcopilot": {
-      "type": "http",
-      "url": "https://api.githubcopilot.com/mcp/",
-      "headers": {
-        "Authorization": "<Authorization>"
-      }
     }
   }
 }

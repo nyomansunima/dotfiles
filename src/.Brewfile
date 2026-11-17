@@ -30,6 +30,8 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Audit git repos for secrets
+brew "gitleaks"
 # Open-source GitLab command-line tool
 brew "glab"
 # Open source programming language to build simple/reliable/efficient software
@@ -122,8 +124,6 @@ cask "affinity"
 cask "android-studio"
 # Agent orchestration platform
 cask "antigravity"
-# Terminal interface for Antigravity agents
-cask "antigravity-cli"
 # Desktop password and login vault
 cask "bitwarden"
 # Mobile gaming platform
@@ -142,6 +142,8 @@ cask "claude"
 cask "claude-code"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Voice and text chat software
 cask "discord"
 # Developer platform
@@ -178,8 +180,8 @@ cask "tablepro"
 cask "telegram"
 # SSH client
 cask "termius"
-# Tiny, fully native launcher, hotkeys, and clipboard history
-cask "abue-ammar/tinycast/tinycast"
+# Application launcher and productivity tool
+cask "tinycast"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Multiplayer code editor
