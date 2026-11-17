@@ -1156,6 +1156,69 @@
       "skillFolderHash": "81e8196f4dd4bf9fc5f0a1b827f4148af52a4391",
       "installedAt": "2026-10-21T05:48:25.043Z",
       "updatedAt": "2026-10-21T06:15:20.185Z"
+    },
+    "fallow": {
+      "source": "fallow-rs/fallow-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fallow-rs/fallow-skills.git",
+      "skillPath": "fallow/skills/fallow/SKILL.md",
+      "skillFolderHash": "31e2e4ed9bbc4d2115d8790ea826ab439d3eec49",
+      "installedAt": "2026-10-29T03:36:31.081Z",
+      "updatedAt": "2026-10-29T03:37:16.884Z"
+    },
+    "fallow-cloud-setup": {
+      "source": "fallow-rs/fallow-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fallow-rs/fallow-skills.git",
+      "skillPath": "fallow/skills/fallow-cloud-setup/SKILL.md",
+      "skillFolderHash": "4cb03177b6502236ec48ece3f29ba04539aee168",
+      "installedAt": "2026-10-29T03:37:16.886Z",
+      "updatedAt": "2026-10-29T03:37:16.886Z"
+    },
+    "fallow-codex-onboarding": {
+      "source": "fallow-rs/fallow-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fallow-rs/fallow-skills.git",
+      "skillPath": "fallow/skills/fallow-codex-onboarding/SKILL.md",
+      "skillFolderHash": "44dab0635274fb43881a3bf3442742b40426de5f",
+      "installedAt": "2026-10-29T03:37:16.887Z",
+      "updatedAt": "2026-10-29T03:37:16.887Z"
+    },
+    "fallow-review": {
+      "source": "fallow-rs/fallow-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fallow-rs/fallow-skills.git",
+      "skillPath": "fallow/skills/fallow-review/SKILL.md",
+      "skillFolderHash": "9f1d3f6b43731aeb3405b503b00421edc0282ad3",
+      "installedAt": "2026-10-29T03:37:16.888Z",
+      "updatedAt": "2026-10-29T03:37:16.888Z"
+    },
+    "fallow-setup": {
+      "source": "fallow-rs/fallow-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fallow-rs/fallow-skills.git",
+      "skillPath": "fallow/skills/fallow-setup/SKILL.md",
+      "skillFolderHash": "73e9950ac89f0c54e100bcb6a0b289632219af86",
+      "installedAt": "2026-10-29T03:37:16.889Z",
+      "updatedAt": "2026-10-29T03:37:16.889Z"
+    },
+    "interface-design": {
+      "source": "Dammyjay93/interface-design",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Dammyjay93/interface-design.git",
+      "skillPath": ".claude/skills/interface-design/SKILL.md",
+      "skillFolderHash": "60daa768b428f42a2346c757ed9049602f5cbaa0",
+      "installedAt": "2026-11-06T02:16:55.259Z",
+      "updatedAt": "2026-11-06T02:16:55.259Z"
+    },
+    "baseline-ui": {
+      "source": "ibelick/ui-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ibelick/ui-skills.git",
+      "skillPath": "skills/baseline-ui/SKILL.md",
+      "skillFolderHash": "e7c069cfe930e7a5fe4d6fe3314d5daefd5b7ebb",
+      "installedAt": "2026-11-06T02:19:44.762Z",
+      "updatedAt": "2026-11-06T02:19:44.762Z"
     }
   },
   "dismissed": {

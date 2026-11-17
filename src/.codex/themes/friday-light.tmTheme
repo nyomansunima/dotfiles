@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Friday Light</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#F2E5BC</string>
+        <key>caret</key>
+        <string>#654735</string>
+        <key>foreground</key>
+        <string>#654735</string>
+        <key>invisibles</key>
+        <string>#8A7350</string>
+        <key>lineHighlight</key>
+        <string>#EBDBB2</string>
+        <key>selection</key>
+        <string>#EBDBB2</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comments</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8A7350</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keywords and storage</string>
+      <key>scope</key>
+      <string>keyword, storage, entity.name.function, support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#945E80</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Types and classes</string>
+      <key>scope</key>
+      <string>entity.name.type, entity.name.class, support.type, support.class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#45707A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Strings</string>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4C7A5D</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Numbers and constants</string>
+      <key>scope</key>
+      <string>constant.numeric, constant.language, constant.character</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B47109</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tags and attributes</string>
+      <key>scope</key>
+      <string>entity.name.tag, entity.other.attribute-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#45707A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Invalid and deleted</string>
+      <key>scope</key>
+      <string>invalid, meta.diff.header.from-file, markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C14A4A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Inserted and changed</string>
+      <key>scope</key>
+      <string>markup.inserted, markup.changed</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#6C782E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown headings and emphasis</string>
+      <key>scope</key>
+      <string>markup.heading, markup.bold, markup.italic</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#945E80</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+  </array>
+  <key>uuid</key>
+  <string>8D14D7B6-6FC8-4DB2-9A8A-5BDFRIDAY001</string>
+</dict>
+</plist>

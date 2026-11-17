@@ -20,9 +20,6 @@ window-padding-x = 6
 window-padding-y = 6
 window-padding-balance = true
 
-# Shell integrations
-shell-integration-features = no-cursor
-
 # Cursor settings
 cursor-style = bar
 cursor-style-blink = true

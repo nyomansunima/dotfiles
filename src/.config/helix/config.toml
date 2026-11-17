@@ -14,6 +14,10 @@ insert = "block"
 normal = "block"
 select = "underline"
 
+# Wrap long lines at the editor (viewport) width
+[editor.soft-wrap]
+enable = true
+
 [editor.file-picker]
 hidden = false
 
@@ -28,3 +32,22 @@ esc = ["collapse_selection", "keep_primary_selection"]
 [keys.normal.space]
 e = "file_explorer_in_current_buffer_directory"
 E = "file_explorer_in_current_directory"
+s = ":write"
+
+# Buffer management: Space x closes the buffer, Space o closes all other
+# buffers, Space Q closes every buffer
+x = ":buffer-close"
+o = ":buffer-close-others"
+Q = ":buffer-close-all"
+
+# Space r reloads every open buffer from disk (picks up external changes)
+r = ":reload-all"
+
+# Space q q quits Helix
+[keys.normal.space.q]
+q = ":quit"
+
+# Space w w saves the file
+[keys.normal.space.w]
+w = ":write"
+

@@ -24,8 +24,6 @@ alias c='clear'
 alias h='history'
 alias up='brew update && brew upgrade && brew cleanup'
 
-# Files
-alias fp="fzf --preview'bat {}'"
 alias ff='fzf'
 alias cat='bat'
 alias less='bat'
