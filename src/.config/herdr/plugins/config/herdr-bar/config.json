@@ -1,0 +1,23 @@
+{
+  "auto_titles": false,
+  "selection_background": "#ebdbb2",
+  "colors": {
+    "accent": "#a86500",
+    "match": "#a86500",
+    "text": "#654735",
+    "muted": "#8a7350",
+    "unknown": "#a8916a",
+    "blocked": "#c14a4a",
+    "working": "#b47109",
+    "done": "#45707a",
+    "idle": "#6c782e",
+    "agent_claude": "#b4501f",
+    "agent_codex": "#45707a",
+    "agent_pi": "#945e80",
+    "agent_grok": "#654735",
+    "agent_kimi": "#4c7a5d",
+    "agent_gemini": "#45707a",
+    "agent_cursor": "#654735",
+    "agent_opencode": "#6c782e"
+  }
+}
