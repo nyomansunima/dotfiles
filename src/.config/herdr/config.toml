@@ -1,0 +1,50 @@
+onboarding = false
+
+[theme]
+name = "terminal"
+auto_switch = false
+
+# Friday Light alignment: visible borders on the cream background
+[theme.custom]
+accent = "#a86500"
+surface1 = "#917a57"
+overlay0 = "#917a57"
+overlay1 = "#6e5a3c"
+surface0 = "#b8a67f"
+surface_dim = "#b8a67f"
+subtext0 = "#654735"
+panel_bg = "#f2e5bc"
+text = "#654735"
+active_row_bg = "#ebdbb2"
+selection_bg = "#ebdbb2"
+
+[keys]
+prefix = "cmd+k"
+split_vertical = "prefix+right"
+split_horizontal = "prefix+down"
+close_tab = "prefix+w"
+workspace_picker = "prefix+shift+x"
+new_tab = "prefix+n"
+next_tab = "prefix+c"
+close_workspace = "prefix+shift+w"
+rename_workspace = "prefix+shift+d"
+
+[ui]
+sidebar_width = 52
+sidebar_min_width = 24
+sidebar_max_width = 80
+sidebar_collapsed_mode = "hidden"
+status_indicators = "symbols"
+
+[ui.sidebar.spaces]
+row_gap = 1
+
+[ui.sidebar.agents]
+row_gap = 1
+rows = [["state_icon", "machine", "workspace"], ["agent"]]
+
+[[keys.command]]
+key = "prefix+k"
+type = "plugin_action"
+command = "herdr-bar.open"
+description = "command bar"

@@ -10,6 +10,7 @@ Here are the list of apps, or settings that are included in this project:
 
 - Bat
 - Ghostty
+- Herdr
 - Neovim
 - Oh My Posh
 - Zed
